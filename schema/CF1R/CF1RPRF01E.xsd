@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2014 (x64) (http://www.altova.com) by Robert Hitchcock (private) -->
-<xsd:schema xmlns="http://www.lmonte.com/besm/CF1RPRF01E" xmlns:d="http://www.lmonte.com/besm/d" xmlns:bld="http://www.lmonte.com/besm/bld" xmlns:env="http://www.lmonte.com/besm/env" xmlns:lit="http://www.lmonte.com/besm/lit" xmlns:hvac="http://www.lmonte.com/besm/hvac" xmlns:comp="http://www.lmonte.com/besm/comp" xmlns:com="http://www.lmonte.com/besm/com" xmlns:dtyp="http://www.lmonte.com/besm/dtyp" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:altova="http://www.altova.com/xml-schema-extensions" targetNamespace="http://www.lmonte.com/besm/CF1RPRF01E" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2022.0.000">
+<xsd:schema xmlns="http://www.lmonte.com/besm/CF1RPRF01E" xmlns:d="http://www.lmonte.com/besm/d" xmlns:bld="http://www.lmonte.com/besm/bld" xmlns:env="http://www.lmonte.com/besm/env" xmlns:lit="http://www.lmonte.com/besm/lit" xmlns:hvac="http://www.lmonte.com/besm/hvac" xmlns:comp="http://www.lmonte.com/besm/comp" xmlns:com="http://www.lmonte.com/besm/com" xmlns:dtyp="http://www.lmonte.com/besm/dtyp" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:altova="http://www.altova.com/xml-schema-extensions" targetNamespace="http://www.lmonte.com/besm/CF1RPRF01E" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2025.0.000">
 	<xsd:import namespace="http://www.lmonte.com/besm/com" schemaLocation="../base/ResCommon.xsd"/>
 	<xsd:import namespace="http://www.lmonte.com/besm/bld" schemaLocation="../base/ResBuilding.xsd"/>
 	<xsd:import namespace="http://www.lmonte.com/besm/env" schemaLocation="../base/ResEnvelope.xsd"/>
@@ -35,7 +35,7 @@
 				<xsd:element name="Report2" type="xsd:base64Binary" id="Sign3"/>
 				<xsd:element name="Input" type="xsd:base64Binary" id="Sign4"/>
 			</xsd:sequence>
-			<xsd:attribute name="revision" type="xsd:string" use="required" fixed="rev 20220901"/>
+			<xsd:attribute name="revision" type="xsd:string" use="required" fixed="rev 20250101"/>
 			<xsd:attribute name="doc" type="comp:ComplianceDocumentTag" use="required" fixed="CF1RPRF01E"/>
 		</xsd:complexType>
 	</xsd:element>
