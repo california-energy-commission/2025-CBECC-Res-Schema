@@ -3829,6 +3829,20 @@ Document Data</dtyp:displayterm>
          <xsd:enumeration value="EdrFailsUMLH"/>
       </xsd:restriction>
    </xsd:simpleType>
+   <xsd:simpleType name="ComplianceResultLSC">
+      <xsd:annotation>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="Complies">PASS</dtyp:displayterm>
+            <dtyp:displayterm value="Fails">FAIL</dtyp:displayterm>
+            <dtyp:displayterm value="FailsUMLH">DOES NOT COMPLY - UMLH</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="Complies"/>
+         <xsd:enumeration value="Fails"/>
+         <xsd:enumeration value="FailsUMLH"/>
+      </xsd:restriction>
+   </xsd:simpleType>
    <xsd:simpleType name="ComplianceResultMessageCI">
       <xsd:annotation>
          <xsd:appinfo source="displayterm">
@@ -6906,61 +6920,61 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMargin">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginFlexibility">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginHR">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginIAQ_Ventilation">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginPhotovoltaicOffset">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginSelfUtilizCredit">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginSelfUtilizCreditEast">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginSelfUtilizCreditNorth">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginSelfUtilizCreditSouth">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginSelfUtilizCreditWest">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
@@ -6972,13 +6986,13 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginSpaceCooling">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseMarginSpaceHeating">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
@@ -7024,7 +7038,7 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseProposedDesign">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
@@ -7246,7 +7260,7 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
    </xsd:simpleType>
    <xsd:simpleType name="EnergyUseStandardDesign">
       <xsd:annotation>
-         <xsd:documentation>Units: kTDV per ft2 per yr</xsd:documentation>
+         <xsd:documentation>Units: $ per ft2</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:Decimal"/>
    </xsd:simpleType>
@@ -11254,6 +11268,81 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="xsd:boolean"/>
    </xsd:simpleType>
+   <xsd:simpleType name="LSC_ComplianceNotes">
+      <xsd:restriction base="xsd:token"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_MarginEfficiency">
+      <xsd:annotation>
+         <xsd:documentation>Units: none</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_MarginPeakCooling">
+      <xsd:annotation>
+         <xsd:documentation>Units: none</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_MarginSourceEnergy">
+      <xsd:annotation>
+         <xsd:documentation>Units: none</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_MarginTotal">
+      <xsd:annotation>
+         <xsd:documentation>Units: none</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_ProposedEfficiency">
+      <xsd:annotation>
+         <xsd:documentation>Units: $/ft2-yr</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_ProposedPeakCooling">
+      <xsd:annotation>
+         <xsd:documentation>Units: kWh</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_ProposedSourceEnergy">
+      <xsd:annotation>
+         <xsd:documentation>Units: kBtu/ft2-yr</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_ProposedTotal">
+      <xsd:annotation>
+         <xsd:documentation>Units:  $/ft2-yr</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_StandardEfficiency">
+      <xsd:annotation>
+         <xsd:documentation>Units: $/ft2-yr</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_StandardPeakCooling">
+      <xsd:annotation>
+         <xsd:documentation>Units: kWh</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_StandardSourceEnergy">
+      <xsd:annotation>
+         <xsd:documentation>Units: kBtu/ft2-yr</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="LSC_StandardTotal">
+      <xsd:annotation>
+         <xsd:documentation>Units: $/ft2-yr</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Decimal1Place"/>
+   </xsd:simpleType>
    <xsd:simpleType name="LandscapeDesignGoalOPR">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
@@ -13096,6 +13185,18 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="Fail">Fail - one or more applicable requirements are not met. Enter reason for failure in corrections notes field below</dtyp:displayterm>
             <dtyp:displayterm value="Pass">Pass - all applicable requirements are met.</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="Fail"/>
+         <xsd:enumeration value="Pass"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="PassFailPeakCooling">
+      <xsd:annotation>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
+            <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="dtyp:EnumerationConstant">
