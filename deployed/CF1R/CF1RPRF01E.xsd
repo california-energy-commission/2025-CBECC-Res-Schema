@@ -603,7 +603,7 @@
                </xsd:sequence>
             </xsd:complexType>
          </xsd:element>
-         <xsd:element name="Section_ComplianceSummary" minOccurs="0">
+         <xsd:element name="Section_ComplianceSummary" minOccurs="1">
             <xsd:annotation>
                <xsd:documentation source="FieldText">Compliance Summary</xsd:documentation>
             </xsd:annotation>
@@ -628,7 +628,7 @@
                                  <xsd:documentation source="FieldText">Peak Cooling**</xsd:documentation>
                               </xsd:annotation>
                            </xsd:element>
-                           <xsd:element name="StandardDesign">
+                           <xsd:element name="LscStandardDesign">
                               <xsd:complexType>
                                  <xsd:sequence>
                                     <xsd:element name="Lsc01Row1Label" minOccurs="0">
@@ -646,12 +646,12 @@
                                           <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> ($/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                        </xsd:annotation>
                                     </xsd:element>
-                                    <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy">
+                                    <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy" minOccurs="0">
                                        <xsd:annotation>
                                           <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                        </xsd:annotation>
                                     </xsd:element>
-                                    <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling">
+                                    <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
                                        <xsd:annotation>
                                           <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                        </xsd:annotation>
@@ -659,7 +659,7 @@
                                  </xsd:sequence>
                               </xsd:complexType>
                            </xsd:element>
-                           <xsd:element name="ProposedDesign">
+                           <xsd:element name="LscProposedDesign">
                               <xsd:complexType>
                                  <xsd:sequence>
                                     <xsd:element name="Lsc01Row2Label" minOccurs="0">
@@ -677,12 +677,12 @@
                                           <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> ($/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                        </xsd:annotation>
                                     </xsd:element>
-                                    <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy">
+                                    <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
                                        <xsd:annotation>
                                           <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                        </xsd:annotation>
                                     </xsd:element>
-                                    <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_StandardPeakCooling">
+                                    <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
                                        <xsd:annotation>
                                           <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                        </xsd:annotation>
@@ -690,7 +690,7 @@
                                  </xsd:sequence>
                               </xsd:complexType>
                            </xsd:element>
-                           <xsd:element name="ComplianceMargin">
+                           <xsd:element name="LscComplianceMargin">
                               <xsd:complexType>
                                  <xsd:sequence>
                                     <xsd:element name="Lsc01Row2Label" minOccurs="0">
@@ -709,12 +709,12 @@
                                              <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> ($/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy">
+                                       <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling">
+                                       <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                           </xsd:annotation>
@@ -722,7 +722,7 @@
                                     </xsd:element>
                                  </xsd:sequence>
                               </xsd:complexType>
-                              <xsd:element name="CategoryResult">
+                              <xsd:element name="LscCategoryResult">
                                  <xsd:complexType>
                                     <xsd:sequence>
                                        <xsd:element name="Lsc01Row2Label" minOccurs="0">
@@ -748,7 +748,7 @@
                                              </xsd:appinfo>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource">
+                                       <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                              <xsd:appinfo source="displayterm">
@@ -757,7 +757,7 @@
                                              </xsd:appinfo>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling">
+                                       <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                              <xsd:appinfo source="displayterm">
@@ -833,7 +833,7 @@
                                     <xsd:documentation source="FieldText">Peak Cooling**</xsd:documentation>
                                  </xsd:annotation>
                               </xsd:element>
-                              <xsd:element name="StandardDesign">
+                              <xsd:element name="LscStandardDesign">
                                  <xsd:complexType>
                                     <xsd:sequence>
                                        <xsd:element name="Lsc01Row1Label" minOccurs="0">
@@ -851,12 +851,12 @@
                                              <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> ($/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy">
+                                       <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling">
+                                       <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                           </xsd:annotation>
@@ -864,7 +864,7 @@
                                     </xsd:sequence>
                                  </xsd:complexType>
                               </xsd:element>
-                              <xsd:element name="ProposedDesign" minOccurs="4" maxOccurs="4">
+                              <xsd:element name="LscProposedDesign" minOccurs="4" maxOccurs="4">
                                  <xsd:complexType>
                                     <xsd:sequence>
                                        <xsd:element name="Lsc01Row2Label" minOccurs="0">
@@ -882,12 +882,12 @@
                                              <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> ($/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy">
+                                       <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_StandardPeakCooling">
+                                       <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                           </xsd:annotation>
@@ -896,7 +896,7 @@
                                     <xsd:attribute name="ProposedAttribute1" type="com:CardinalDirection" use="optional"/>
                                  </xsd:complexType>
                               </xsd:element>
-                              <xsd:element name="ComplianceMargin" minOccurs="4" maxOccurs="4">
+                              <xsd:element name="LscComplianceMargin" minOccurs="4" maxOccurs="4">
                                  <xsd:complexType>
                                     <xsd:sequence>
                                        <xsd:element name="Lsc01Row2Label" minOccurs="0">
@@ -915,12 +915,12 @@
                                                 <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> ($/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                              </xsd:annotation>
                                           </xsd:element>
-                                          <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy">
+                                          <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
                                              <xsd:annotation>
                                                 <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                              </xsd:annotation>
                                           </xsd:element>
-                                          <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling">
+                                          <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
                                              <xsd:annotation>
                                                 <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                              </xsd:annotation>
@@ -929,7 +929,7 @@
                                        <xsd:attribute name="ComplianceAttribute1" type="com:CardinalDirection" use="optional"/>
                                     </xsd:sequence>
                                  </xsd:complexType>
-                                 <xsd:element name="CategoryResult" minOccurs="4" maxOccurs="4">
+                                 <xsd:element name="LscCategoryResult" minOccurs="0" maxOccurs="4">
                                     <xsd:complexType>
                                        <xsd:sequence>
                                           <xsd:element name="Lsc01Row2Label" minOccurs="0">
@@ -955,7 +955,7 @@
                                                 </xsd:appinfo>
                                              </xsd:annotation>
                                           </xsd:element>
-                                          <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource">
+                                          <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource" minOccurs="0">
                                              <xsd:annotation>
                                                 <xsd:documentation source="FieldText">Total<d:sup>3</d:sup> (kBtu/ft<d:sup>2</d:sup>-yr)</xsd:documentation>
                                                 <xsd:appinfo source="displayterm">
@@ -964,7 +964,7 @@
                                                 </xsd:appinfo>
                                              </xsd:annotation>
                                           </xsd:element>
-                                          <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling">
+                                          <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling" minOccurs="0">
                                              <xsd:annotation>
                                                 <xsd:documentation source="FieldText">Electricity (kWh)</xsd:documentation>
                                                 <xsd:appinfo source="displayterm">
@@ -1025,7 +1025,7 @@
                      </xsd:element>
                   </xsd:element>
                </xsd:choice>
-               <xsd:element name="Section_EnergyUseComponents">
+               <xsd:element name="Section_EnergyUseSummary">
                   <xsd:annotation>
                      <xsd:documentation source="FieldText">LSC AND SOURCE ENERGY COMPLIANCE RESULTS FOR PERFORMANCE COMPONENTS</xsd:documentation>
                      <xsd:appinfo source="CBECCresXML">
