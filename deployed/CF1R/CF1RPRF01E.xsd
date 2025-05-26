@@ -1148,7 +1148,7 @@
 									</xsd:element>
 									<xsd:element minOccurs="0" name="EusCol05Heading">
 										<xsd:annotation>
-											<xsd:documentation source="FieldText"><d:b>Compliance Margin LSC<d:sup>1</d:sup> ($/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
+											<xsd:documentation source="FieldText"><d:b>Compliance Margin Source (kBtu/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -1156,7 +1156,7 @@
 									</xsd:element>
 									<xsd:element minOccurs="0" name="EusCol06Heading">
 										<xsd:annotation>
-											<xsd:documentation source="FieldText"><d:b>Compliance Margin Source (kBtu/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
+											<xsd:documentation source="FieldText"><d:b>Compliance Margin LSC<d:sup>1</d:sup> ($/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -1202,19 +1202,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusHeat05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse1[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusHeat06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusHeat05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusHeat06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse1[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -1259,19 +1259,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusCool05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse2[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusCool06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusCool05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusCool06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse2[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -1316,19 +1316,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusVent05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse3[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusVent06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusVent05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusVent06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse3[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -1373,19 +1373,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusWater05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse5[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusWater06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusWater05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusWater06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse5[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -1452,9 +1452,10 @@
 										</xsd:element>
 									</xsd:choice>
 									<xsd:choice maxOccurs="1">
-										<xsd:element name="EusCredit05_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:element name="EusCredit05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 											<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+                                                                                        	<xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
+												<xsd:documentation source="FieldText"/>
 												<xsd:appinfo source="CBECCresXML">
 													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 												</xsd:appinfo>
@@ -1470,9 +1471,9 @@
 										</xsd:element>
 									</xsd:choice>
 									<xsd:choice maxOccurs="1">
-										<xsd:element name="EusCredit06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+										<xsd:element name="EusCredit06_EnergyUseMargin" type="comp:EnergyUseMargin">
 											<xsd:annotation>
-												<xsd:documentation source="FieldText"/>
+                                                                                        	<xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
 												<xsd:appinfo source="CBECCresXML">
 													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 												</xsd:appinfo>
@@ -1527,19 +1528,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusTeff05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse11[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusTeff06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusTeff05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusTeff06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse11[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -1966,7 +1967,7 @@
 									</xsd:element>
 									<xsd:element minOccurs="0" name="EusCol05Heading">
 										<xsd:annotation>
-											<xsd:documentation source="FieldText"><d:b>Compliance Margin LSC<d:sup>1</d:sup> ($/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
+											<xsd:documentation source="FieldText"><d:b>Compliance Margin Source (kBtu/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -1974,7 +1975,7 @@
 									</xsd:element>
 									<xsd:element minOccurs="0" name="EusCol06Heading">
 										<xsd:annotation>
-											<xsd:documentation source="FieldText"><d:b>Compliance Margin Source (kBtu/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
+											<xsd:documentation source="FieldText"><d:b>Compliance Margin LSC<d:sup>1</d:sup> ($/ft<d:sup>2</d:sup> -yr)</d:b></xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -2020,19 +2021,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusHeat05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse1[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusHeat06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusHeat05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusHeat06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse1[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -2077,19 +2078,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusCool05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse2[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusCool06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusCool05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusCool06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse2[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -2134,19 +2135,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusVent05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse3[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusVent06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusVent05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusVent06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse3[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -2191,19 +2192,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusWater05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse5[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusWater06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusWater05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusWater06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse5[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -2270,9 +2271,9 @@
 										</xsd:element>
 									</xsd:choice>
 									<xsd:choice maxOccurs="1">
-										<xsd:element name="EusCredit05_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:element name="EusCredit05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 											<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+												<xsd:documentation source="FieldText"/>
 												<xsd:appinfo source="CBECCresXML">
 													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 												</xsd:appinfo>
@@ -2288,9 +2289,9 @@
 										</xsd:element>
 									</xsd:choice>
 									<xsd:choice maxOccurs="1">
-										<xsd:element name="EusCredit06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+										<xsd:element name="EusCredit06_EnergyUseMargin" type="comp:EnergyUseMargin">
 											<xsd:annotation>
-												<xsd:documentation source="FieldText"/>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
 												<xsd:appinfo source="CBECCresXML">
 													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 												</xsd:appinfo>
@@ -2345,19 +2346,19 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EusTeff05_EnergyUseMargin" type="comp:EnergyUseMargin">
-										<xsd:annotation>
-                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>EUseSummary:Enduse11[7]</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
-									<xsd:element name="EusTeff06_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
+									<xsd:element name="EusTeff05_EnergyUseMarginSource" type="comp:EnergyUseMarginSource">
 										<xsd:annotation>
                                                                                         <xsd:documentation>  Units: kBtu/ft2 -yr</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+											</xsd:appinfo>
+										</xsd:annotation>
+									</xsd:element>
+									<xsd:element name="EusTeff06_EnergyUseMargin" type="comp:EnergyUseMargin">
+										<xsd:annotation>
+                                                                                        <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
+											<xsd:appinfo source="CBECCresXML">
+												<dtyp:CBECCresXMLterm>EUseSummary:Enduse11[7]</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
@@ -3658,7 +3659,7 @@
 			</xsd:element>
 			<xsd:element minOccurs="1" name="Section_Ea">
 				<xsd:annotation>
-					<xsd:documentation source="FieldText">HERS FEATURE SUMMARY</xsd:documentation>
+					<xsd:documentation source="FieldText">ECC FEATURE SUMMARY</xsd:documentation>
 					<xsd:appinfo source="CBECCresXML">
 						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 					</xsd:appinfo>
@@ -3669,10 +3670,10 @@
 						<xsd:element minOccurs="0" name="Ea_beginNote1">
 							<xsd:annotation>
 								<xsd:documentation source="FieldText">Begin Note 1</xsd:documentation>
-								<xsd:documentation source="AdditionalRequirements">The following is a summary of the  features that must be field-verified by a certified HERS Rater as a condition for meeting the modeled energy performance for this computer analysis.  Additional detail is provided in the building tables below.  Registered CF2Rs and CF3Rs are required to be completed in the HERS Registry</xsd:documentation>
+								<xsd:documentation source="AdditionalRequirements">The following is a summary of the  features that must be field-verified by a certified ECC Rater as a condition for meeting the modeled energy performance for this computer analysis.  Additional detail is provided in the building tables below.  Registered CF2Rs and CF3Rs are required to be completed in the ECC Registry</xsd:documentation>
 								<xsd:appinfo source="CBECCresXML">
 									<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-									<dtyp:termConditions>Need logic here to extract and concatenate notes from various HERS Feature variables</dtyp:termConditions>
+									<dtyp:termConditions>Need logic here to extract and concatenate notes from various ECC Feature variables</dtyp:termConditions>
 								</xsd:appinfo>
 							</xsd:annotation>
 						</xsd:element>
@@ -3737,7 +3738,7 @@
 									<xsd:element name="Ea01a_BuildingFeatureHERS_String" type="comp:BuildingFeatureHERS_String">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="CalculationsAndRules">If CBECC-res has a HERS building feature not in current list, the string value is stored in this element.</xsd:documentation>
+											<xsd:documentation source="CalculationsAndRules">If CBECC-res has an ECC building feature not in current list, the string value is stored in this element.</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -3746,7 +3747,7 @@
 									<xsd:element minOccurs="0" name="Ea01b_BuildingFeatureHERS_Data" type="comp:BuildingFeatureHERS_Data">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="CalculationsAndRules">If CBECC-res has a HERS building feature not in current list, the string value is stored in this element.</xsd:documentation>
+											<xsd:documentation source="CalculationsAndRules">If CBECC-res has an ECC building feature not in current list, the string value is stored in this element.</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -3776,7 +3777,7 @@
 									<xsd:element name="Ea02a_CoolingSystemFeatureHERS_String" type="comp:CoolingSystemFeatureHERS_String">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="CalculationsAndRules">If CBECC-res has a HERS cooling system feature not in current list, the string value is stored in this element.</xsd:documentation>
+											<xsd:documentation source="CalculationsAndRules">If CBECC-res has an ECC cooling system feature not in current list, the string value is stored in this element.</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -3814,7 +3815,7 @@
 									<xsd:element name="Ea03a_HeatingSystemFeatureHERS_String" type="comp:HeatingSystemFeatureHERS_String">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="CalculationsAndRules">If CBECC-res has a HERS heating system feature not in current list, the string value is stored in this element.</xsd:documentation>
+											<xsd:documentation source="CalculationsAndRules">If CBECC-res has an ECC heating system feature not in current list, the string value is stored in this element.</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -3852,7 +3853,7 @@
 									<xsd:element name="Ea04a_HvacDistributionFeatureHERS_String" type="comp:HvacDistributionFeatureHERS_String">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="CalculationsAndRules">If CBECC-res has a HERS HVAC distribution feature not in current list, the string value is stored in this element.</xsd:documentation>
+											<xsd:documentation source="CalculationsAndRules">If CBECC-res has an ECC HVAC distribution feature not in current list, the string value is stored in this element.</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -3890,7 +3891,7 @@
 									<xsd:element name="Ea05a_DomesticHotWaterFeatureHERS_String" type="comp:DomesticHotWaterFeatureHERS_String">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="CalculationsAndRules">If CBECC-res has a HERS DHW feature not in current list, the string value is stored in this element.</xsd:documentation>
+											<xsd:documentation source="CalculationsAndRules">If CBECC-res has an ECC DHW feature not in current list, the string value is stored in this element.</xsd:documentation>
 											<xsd:appinfo source="CBECCresXML">
 												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 											</xsd:appinfo>
@@ -6097,7 +6098,7 @@
 												<xsd:choice maxOccurs="1">
 													<xsd:element name="S08_WaterHeatingSystemHERS_VerificationName" type="comp:WaterHeatingSystemHERS_VerificationName">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -6105,7 +6106,7 @@
 													</xsd:element>
 													<xsd:element name="S08_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -6789,7 +6790,7 @@
 												<xsd:choice maxOccurs="1">
 													<xsd:element name="Tcd06_CompactDistributionHERS_VerificationName" type="comp:CompactDistributionHERS_VerificationName">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -6797,7 +6798,7 @@
 													</xsd:element>
 													<xsd:element name="Tcd06_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -6915,7 +6916,7 @@
 												</xsd:element>
 												<xsd:element name="Tdw06_DWHR_HERS_VerificationRequired" type="comp:DWHR_HERS_VerificationRequired">
 													<xsd:annotation>
-														<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
+														<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
@@ -8576,7 +8577,7 @@
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
 															<xsd:documentation source="AdditionalRequirements">ECC verfication</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require ECC verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -8586,7 +8587,7 @@
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
 															<xsd:documentation source="AdditionalRequirements">ECC verfication</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require ECC verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -9185,8 +9186,8 @@
 												<xsd:choice maxOccurs="1">
 													<xsd:element name="Ydfhp12_HeatPumpSystemHERS_VerificationName" type="comp:HeatPumpSystemHERS_VerificationName">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require ECC verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -9194,8 +9195,8 @@
 													</xsd:element>
 													<xsd:element name="Ydfhp12_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require ECC verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -10152,8 +10153,8 @@
 												<xsd:choice maxOccurs="1">
 													<xsd:element name="Cc04_FanSystemHERS_VerificationName" type="comp:FanSystemHERS_VerificationName">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require ECC verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>HVACFan:HERSCheck</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -10161,8 +10162,8 @@
 													</xsd:element>
 													<xsd:element name="Cc04_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
-															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require ECC verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -10659,7 +10660,7 @@
 												</xsd:element>
 												<xsd:element name="Ff09_CoolingVent_VerificationRequired" type="comp:CoolingVent_VerificationRequired">
 													<xsd:annotation>
-														<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
+														<xsd:documentation source="FieldText">ECC Verification</xsd:documentation>
 														<xsd:documentation source="CalculationsAndRules">If result  == true display term = Required</xsd:documentation>
 														<xsd:appinfo source="displayterm">
 															<dtyp:displayterm value="true">Required</dtyp:displayterm>
@@ -10692,7 +10693,7 @@
 			<xsd:element minOccurs="0" name="Section_TitleVerifyAndAlteredHERS">
 				<xsd:annotation>
 					<xsd:documentation source="FieldText"/>
-					<xsd:documentation source="AdditionalRequirements">HERS RATER VERIFICATION OF EXISTING CONDITIONS</xsd:documentation>
+					<xsd:documentation source="AdditionalRequirements">ECC RATER VERIFICATION OF EXISTING CONDITIONS</xsd:documentation>
 					<xsd:appinfo source="CBECCresXML">
 						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 					</xsd:appinfo>
