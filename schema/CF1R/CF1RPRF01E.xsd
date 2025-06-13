@@ -4638,7 +4638,7 @@
 												</xsd:element>
 												<xsd:element name="L08a_AirGapToBeInstalled" type="comp:AirGapToBeInstalled">
 													<xsd:annotation>
-														<xsd:documentation source="FieldText">Air Gap</xsd:documentation>
+														<xsd:documentation source="FieldText">Above Roof Deck Air Gap</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm></dtyp:CBECCresXMLterm>
 															<dtyp:termConditions></dtyp:termConditions>
