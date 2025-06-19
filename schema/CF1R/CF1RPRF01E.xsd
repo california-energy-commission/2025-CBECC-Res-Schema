@@ -5033,7 +5033,7 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
-												<xsd:element name="N02_RelativePosition" type="com:RelativePosition">
+												<xsd:element name="N02_PartitionName" type="env:PartitionName">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Side of Building</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
@@ -6670,6 +6670,22 @@
 														</xsd:annotation>
 													</xsd:element>
 												</xsd:choice>
+												<xsd:element name="Tneea09_UniformEnergyFactor" type="hvac:UniformEnergyFactor" minOccurs="0">
+													<xsd:annotation>
+														<xsd:documentation source="FieldText">UEF</xsd:documentation>
+														<xsd:appinfo source="CBECCresXML">
+															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+														</xsd:appinfo>
+													</xsd:annotation>
+												</xsd:element>
+												<xsd:element name="Tneea10_JA13CompliantHPWH" type="comp:JA13CompliantHPWH" minOccurs="0">
+													<xsd:annotation>
+														<xsd:documentation source="FieldText">JA13 Compliant</xsd:documentation>
+														<xsd:appinfo source="CBECCresXML">
+															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+														</xsd:appinfo>
+													</xsd:annotation>
+												</xsd:element>
 											</xsd:sequence>
 										</xsd:complexType>
 									</xsd:element>
