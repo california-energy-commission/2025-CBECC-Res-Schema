@@ -6724,14 +6724,24 @@
                             </xsd:annotation>
                           </xsd:element>
                         </xsd:choice>
-                        <xsd:element name="Tneea09_UniformEnergyFactor" type="hvac:UniformEnergyFactor" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText">UEF</xsd:documentation>
-                            <xsd:appinfo source="CBECCresXML">
-                              <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                            </xsd:appinfo>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Tneea09_UniformEnergyFactor" type="hvac:UniformEnergyFactor">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText">UEF</xsd:documentation>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Tneea09_NotApplicableMessage" type="comp:NotApplicableMessage">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText">UEF</xsd:documentation>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                         <xsd:element name="Tneea10_JA13CompliantHPWH" type="comp:JA13CompliantHPWH" minOccurs="0">
                           <xsd:annotation>
                             <xsd:documentation source="FieldText">JA13 Compliant</xsd:documentation>
