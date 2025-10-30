@@ -6654,7 +6654,7 @@
 												</xsd:element>
 												<xsd:element name="Q09_NonStdSprayFoam" type="env:NonStdSprayFoam" minOccurs="0">
 													<xsd:annotation>
-														<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
+														<xsd:documentation source="FieldText">Non-Std Spray Foam</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
@@ -7349,7 +7349,7 @@
 			</xsd:element>
 			<xsd:element name="Section_Tneea" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation source="FieldText">WATER HEATERS - NEEA Heat Pump</xsd:documentation>
+					<xsd:documentation source="FieldText">WATER HEATERS - Heat Pump</xsd:documentation>
 					<xsd:appinfo source="CBECCresXML">
 						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 					</xsd:appinfo>
@@ -9460,6 +9460,11 @@
 												<xsd:element name="Y14a_IsVSD" type="hvac:IsVSD" minOccurs="0">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Variable Speed</xsd:documentation>
+														<xsd:appinfo source="displayterm">
+															<dtyp:displayterm value="true">True</dtyp:displayterm>
+															<dtyp:displayterm value="false">False</dtyp:displayterm>
+														</xsd:appinfo>
+														<xsd:documentation source="CalculationsAndRules">This column should display a checkbox.  If result = true, display box checked, Else unchecked. </xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm/>
 														</xsd:appinfo>
