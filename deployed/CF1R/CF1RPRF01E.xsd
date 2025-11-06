@@ -594,16 +594,16 @@
           <xsd:sequence>
             <xsd:element name="C01_ResidentialPerformanceComplianceResult" type="comp:ResidentialPerformanceComplianceResult">
               <xsd:annotation>
-                <xsd:documentation source="FieldText">01</xsd:documentation>
+                <xsd:documentation source="FieldText"/>
                 <xsd:appinfo source="CBECCresXML">
                   <dtyp:CBECCresXMLterm>EUseSummary:PassFail</dtyp:CBECCresXMLterm>
-                  <dtyp:termConditions>Need logic condition to select Standard:Proj:EUseSummary for this field vs Proposed for fileds C02 and C03</dtyp:termConditions>
+                  <dtyp:termConditions>Need logic condition to select Standard:Proj:EUseSummary for this field vs Proposed for fields C02 and C03</dtyp:termConditions>
                 </xsd:appinfo>
               </xsd:annotation>
             </xsd:element>
             <xsd:element name="C02_ResidentialPerformanceHERS_VerificationRequired" type="comp:ResidentialPerformanceHERS_VerificationRequired">
               <xsd:annotation>
-                <xsd:documentation source="FieldText">02</xsd:documentation>
+                <xsd:documentation source="FieldText"/>
                 <xsd:appinfo source="CBECCresXML">
                   <dtyp:CBECCresXMLterm>EUseSummary:</dtyp:CBECCresXMLterm>
                   <dtyp:termConditions>Need to include multiple EUseSummary properties here: HERSCool, HERSProj, HERSDHW, HERSDist</dtyp:termConditions>
@@ -612,7 +612,7 @@
             </xsd:element>
             <xsd:element name="C03_ResidentialPerformanceSpecialFeatures" type="comp:ResidentialPerformanceSpecialFeatures">
               <xsd:annotation>
-                <xsd:documentation source="FieldText">03</xsd:documentation>
+                <xsd:documentation source="FieldText"/>
                 <xsd:documentation source="CalculationsAndRules">This field value is only displayed if ResidentialPerformanceSpecialFeatures is true.  If true the display text is This building incorporates one or more Special Features shown below.</xsd:documentation>
                 <xsd:appinfo source="CBECCresXML">
                   <dtyp:CBECCresXMLterm>EUseSummary:SpeclFtr</dtyp:CBECCresXMLterm>

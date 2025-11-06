@@ -16262,8 +16262,8 @@ the inside surface of gable ends or other exterior vertical surfaces in attics t
   <xsd:simpleType name="ResidentialPerformanceHERS_VerificationRequired">
     <xsd:annotation>
       <xsd:appinfo source="displayterm">
-        <dtyp:displayterm value="true">This building incorporates features that require field testing and/or verification by a certified HERS rater under the supervision of a CEC-approved HERS provider.</dtyp:displayterm>
-        <dtyp:displayterm value="false">Building does not require field testing or HERS verification</dtyp:displayterm>
+        <dtyp:displayterm value="true">This building incorporates features that require field testing and/or verification by a certified ECC rater under the supervision of a CEC-approved ECC provider.</dtyp:displayterm>
+        <dtyp:displayterm value="false">Building does not require field testing or ECC verification</dtyp:displayterm>
       </xsd:appinfo>
     </xsd:annotation>
     <xsd:restriction base="xsd:boolean">
