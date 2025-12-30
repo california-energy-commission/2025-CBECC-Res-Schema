@@ -1180,7 +1180,7 @@
 					<xsd:element name="LscEndNote1" minOccurs="0">
 					   <xsd:annotation>
 						<xsd:documentation source="FieldText"/>
-						<xsd:documentation source="AdditionalRequirements">* Building complies when Proposed Design is equal to or less than Standard Design in all three compliance categories</xsd:documentation>
+						<xsd:documentation source="AdditionalRequirements">* Building complies when Proposed Design is equal to or less than Standard Design in all applicable compliance categories</xsd:documentation>
 					   </xsd:annotation>
 					</xsd:element>
 					<xsd:element name="LscEndNote2" minOccurs="0">
@@ -1414,7 +1414,7 @@
 					<xsd:element name="LscEndNote1" minOccurs="0">
 					   <xsd:annotation>
 						<xsd:documentation source="FieldText"/>
-						<xsd:documentation source="AdditionalRequirements">* Building complies when Proposed Design is equal to or less than Standard Design in all three compliance categories</xsd:documentation>
+						<xsd:documentation source="AdditionalRequirements">* Building complies when Proposed Design is equal to or less than Standard Design in all applicable compliance categories</xsd:documentation>
 					   </xsd:annotation>
 					</xsd:element>
 					<xsd:element name="LscEndNote2" minOccurs="0">
@@ -12534,22 +12534,95 @@
 																				</xsd:appinfo>
 																			</xsd:annotation>
 																		</xsd:element>
-																		<xsd:element name="Oo04c_EfficiencyEER" type="hvac:EfficiencyEER">
-																			<xsd:annotation>
-																				<xsd:documentation source="FieldText">EER</xsd:documentation>
-																				<xsd:appinfo source="CBECCresXML">
+																		<xsd:choice maxOccurs="1">
+																			<xsd:element name="Oo04c_EfficiencyType">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">Cooling Efficiency Type</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
 																					<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-																				</xsd:appinfo>
-																			</xsd:annotation>
-																		</xsd:element>
-																		<xsd:element name="Oo04d_EfficiencySEER" type="hvac:EfficiencySEER">
-																			<xsd:annotation>
-																				<xsd:documentation source="FieldText">SEER</xsd:documentation>
-																				<xsd:appinfo source="CBECCresXML">
-																					<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-																				</xsd:appinfo>
-																			</xsd:annotation>
-																		</xsd:element>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																				<xsd:simpleType>
+																					<xsd:restriction base="hvac:EfficiencyType">
+																						<xsd:enumeration value="CEER"/>
+																						<xsd:enumeration value="EER"/>
+																						<xsd:enumeration value="EER2"/>
+																						<xsd:enumeration value="EER2SEER2"/>
+																						<xsd:enumeration value="EERSEER"/>
+																						<xsd:enumeration value="SEER"/>
+																						<xsd:enumeration value="SEER2"/>
+																					</xsd:restriction>
+																				</xsd:simpleType>
+																			</xsd:element>
+																			<xsd:element name="Oo04c_NotApplicableMessage" type="comp:NotApplicableMessage">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">Cooling Efficiency Type</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																		</xsd:choice>
+																		<xsd:choice maxOccurs="1">
+																			<xsd:element name="Oo04d_EfficiencySEER" type="hvac:EfficiencySEER">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">SEER/SEER2</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																			<xsd:element name="Oo04d_EfficiencySEER2" type="hvac:EfficiencySEER2">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">SEER/SEER2</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																			<xsd:element name="Oo04d_NotApplicableMessage" type="comp:NotApplicableMessage">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">SEER/SEER2</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																		</xsd:choice>										
+																		<xsd:choice maxOccurs="1">
+																			<xsd:element name="Oo04e_EfficiencyEER" type="hvac:EfficiencyEER">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">EER/EER2</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																			<xsd:element name="Oo04e_EfficiencyEER2" type="hvac:EfficiencyEER2">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">EER/EER2</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																			<xsd:element name="Oo04e_EfficiencyCEER" type="hvac:EfficiencyCEER">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">EER/EER2/CEER</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																			<xsd:element name="Oo04e_NotApplicableMessage" type="comp:NotApplicableMessage">
+																				<xsd:annotation>
+																					<xsd:documentation source="FieldText">EER/EER2</xsd:documentation>
+																					<xsd:appinfo source="CBECCresXML">
+																						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+																					</xsd:appinfo>
+																				</xsd:annotation>
+																			</xsd:element>
+																		</xsd:choice>
 																	</xsd:sequence>
 																</xsd:complexType>
 															</xsd:element>
