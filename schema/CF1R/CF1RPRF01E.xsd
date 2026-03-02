@@ -5098,14 +5098,25 @@
 														</xsd:annotation>
 													</xsd:element>
 												</xsd:choice>
-												<xsd:element name="J09a_WallException" type="comp:WallException" minOccurs="0">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Wall Exceptions</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="J09a_WallException" type="comp:WallException" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Wall Exceptions</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="J09a_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Wall Exceptions</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If opaque surface is not a wall, no value is required and "n/a" is displayed in report</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:element name="J09_StatusEAA" type="com:StatusEAA" minOccurs="0">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Status</xsd:documentation>
@@ -6946,14 +6957,24 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
-												<xsd:element name="S11_WaterHeatingSystemName" type="hvac:WaterHeatingSystemName" minOccurs="0">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Existing Water Heating System</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="S11_WaterHeatingSystemName" type="hvac:WaterHeatingSystemName" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Existing Water Heating System</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="S11_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Existing Water Heating System</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:element name="S12_WaterHeaterNameCount" type="hvac:WaterHeaterNameCount" maxOccurs="6">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Water Heater Name (#)</xsd:documentation>
@@ -7377,22 +7398,42 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
-												<xsd:element name="Tneea02_WaterHeaterCount" type="hvac:WaterHeaterCount">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText"># of Units</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
-												<xsd:element name="Tneea03_StorageCapacity" type="hvac:StorageCapacity">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Tank Vol. (gal)</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="Tneea02_WaterHeaterCount" type="hvac:WaterHeaterCount">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText"># of Units</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Tneea02_NotApplicableMessage" type="comp:NotApplicableMessage">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText"># of Units</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="Tneea03_StorageCapacity" type="hvac:StorageCapacity">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Tank Vol. (gal)</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Tneea03_NotApplicableMessage" type="comp:NotApplicableMessage">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Tank Vol. (gal)</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:element name="Tneea04_HeatPumpWaterHeaterBrandNEEA" type="hvac:HeatPumpWaterHeaterBrandNEEA">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">NEEA Heat Pump Brand</xsd:documentation>
@@ -7402,15 +7443,25 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
-												<xsd:element name="Tneea05_HeatPumpWaterHeaterModelNEEA" type="hvac:HeatPumpWaterHeaterModelNEEA">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">NEEA Heat Pump Model</xsd:documentation>
-														<xsd:documentation source="CalculationsAndRules">If there is no value for this field, display "n/a".</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>DHWSysRpt:MakeAndModel</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="Tneea05_HeatPumpWaterHeaterModelNEEA" type="hvac:HeatPumpWaterHeaterModelNEEA">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">NEEA Heat Pump Model</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If there is no value for this field, display "n/a".</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>DHWSysRpt:MakeAndModel</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Tneea05_NotApplicableMessage" type="comp:NotApplicableMessage">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">NEEA Heat Pump Model</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:element name="Tneea05a_HeatPumpWaterHeaterSimulationGroup" type="hvac:HeatPumpWaterHeaterSimulationGroup" minOccurs="0">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Simulated Equipment Make and Model</xsd:documentation>
@@ -7418,15 +7469,25 @@
 															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
 													</xsd:annotation>
-												</xsd:element>												
-												<xsd:element name="Tneea06_TankLocation" type="hvac:TankLocation">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Tank Location</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>												
+												</xsd:element>
+												<xsd:choice maxOccurs="1">												
+													<xsd:element name="Tneea06_TankLocation" type="hvac:TankLocation">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Tank Location</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Tneea06_NotApplicableMessage" type="comp:NotApplicableMessage">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Tank Location</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>												
 												<xsd:choice maxOccurs="1">
 													<xsd:element name="Tneea07_AirSource">
 														<xsd:annotation>
@@ -7442,6 +7503,14 @@
 														</xsd:simpleType>
 													</xsd:element>
 													<xsd:element name="Tneea07_AirSourceString" type="hvac:AirSourceString">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Duct Inlet Air Source</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Tneea07_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">Duct Inlet Air Source</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
@@ -7465,6 +7534,14 @@
 														</xsd:simpleType>
 													</xsd:element>
 													<xsd:element name="Tneea08_AirSourceString" type="hvac:AirSourceString">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Duct Outlet Air Source</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Tneea08_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">Duct Outlet Air Source</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
@@ -9137,38 +9214,48 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
-												<xsd:element name="Y02_ResidentialHeatingSystemType">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">System Type</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-													<xsd:simpleType>
-														<xsd:restriction base="hvac:ResidentialHeatingSystemType">
-															<xsd:enumeration value="AirToWaterHeatPump"/>
-															<xsd:enumeration value="CentralLargePackagedHP"/>
-															<xsd:enumeration value="CentralPackagedHP"/>
-															<xsd:enumeration value="CentralSplitHP"/>
-															<xsd:enumeration value="DuctedDuctlessMultiSplitHP"/>
-															<xsd:enumeration value="DuctedMiniSplitHP"/>
-															<xsd:enumeration value="DuctedMultiSplitHP"/>
-															<xsd:enumeration value="DuctlessMiniSplitHP"/>
-															<xsd:enumeration value="DuctlessMultiSplitHP"/>
-															<xsd:enumeration value="DuctlessVRF_HP"/>
-															<xsd:enumeration value="GroundSourceHeatPump"/>
-															<xsd:enumeration value="HeatPumpDHWCombo"/>
-															<xsd:enumeration value="PTHP"/>
-															<xsd:enumeration value="RoomHP"/>
-															<xsd:enumeration value="SmallDuctHighVelocityHP"/>
-															<xsd:enumeration value="SPVHP"/>
-															<xsd:enumeration value="VCHP"/>
-															<xsd:enumeration value="VCHP_IndoorUnitDucted"/>
-															<xsd:enumeration value="VCHP_IndoorUnitDuctedAndDuctless"/>
-															<xsd:enumeration value="VCHP_IndoorUnitDuctless"/>
-														</xsd:restriction>
-													</xsd:simpleType>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="Y02_ResidentialHeatingSystemType">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">System Type</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+														<xsd:simpleType>
+															<xsd:restriction base="hvac:ResidentialHeatingSystemType">
+																<xsd:enumeration value="AirToWaterHeatPump"/>
+																<xsd:enumeration value="CentralLargePackagedHP"/>
+																<xsd:enumeration value="CentralPackagedHP"/>
+																<xsd:enumeration value="CentralSplitHP"/>
+																<xsd:enumeration value="DuctedDuctlessMultiSplitHP"/>
+																<xsd:enumeration value="DuctedMiniSplitHP"/>
+																<xsd:enumeration value="DuctedMultiSplitHP"/>
+																<xsd:enumeration value="DuctlessMiniSplitHP"/>
+																<xsd:enumeration value="DuctlessMultiSplitHP"/>
+																<xsd:enumeration value="DuctlessVRF_HP"/>
+																<xsd:enumeration value="GroundSourceHeatPump"/>
+																<xsd:enumeration value="HeatPumpDHWCombo"/>
+																<xsd:enumeration value="PTHP"/>
+																<xsd:enumeration value="RoomHP"/>
+																<xsd:enumeration value="SmallDuctHighVelocityHP"/>
+																<xsd:enumeration value="SPVHP"/>
+																<xsd:enumeration value="VCHP"/>
+																<xsd:enumeration value="VCHP_IndoorUnitDucted"/>
+																<xsd:enumeration value="VCHP_IndoorUnitDuctedAndDuctless"/>
+																<xsd:enumeration value="VCHP_IndoorUnitDuctless"/>
+															</xsd:restriction>
+														</xsd:simpleType>
+													</xsd:element>
+													<xsd:element name="Y02_NotApplicableMessage" type="comp:NotApplicableMessage">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">System Type</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:element name="Y03_HeatPumpCount" type="hvac:HeatPumpCount">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Number of Units</xsd:documentation>
@@ -9298,14 +9385,24 @@
 														</xsd:annotation>
 													</xsd:element>
 												</xsd:choice>
-												<xsd:element name="Y06b_HeatPumpBackupFuel" type="hvac:HeatPumpBackupFuel" minOccurs="0">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Backup</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="Y06b_HeatPumpBackupFuel" type="hvac:HeatPumpBackupFuel" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Backup</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Y06b_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Backup</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:choice maxOccurs="1">
 													<xsd:element name="Y07a_EfficiencyType">
 														<xsd:annotation>
@@ -10615,14 +10712,24 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
-												<xsd:element name="Aa15_SpaceConditioningDistributionSystemName" type="hvac:SpaceConditioningDistributionSystemName" minOccurs="0">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Existing Distribution system</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>HVACDist:HERSCheck</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">
+													<xsd:element name="Aa15_SpaceConditioningDistributionSystemName" type="hvac:SpaceConditioningDistributionSystemName" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Existing Distribution system</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>HVACDist:HERSCheck</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+													<xsd:element name="Aa15_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Existing Distribution system</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:choice maxOccurs="1">
 													<xsd:element name="Aa16_Installing25PlusLinearFeetDucts" type="comp:Installing25PlusLinearFeetDucts">
 														<xsd:annotation>
