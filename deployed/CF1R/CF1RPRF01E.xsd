@@ -1015,21 +1015,51 @@
                             <xsd:documentation source="FieldText"/>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_LSC_StandardTotal" type="comp:LSC_StandardTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_LSC_StandardTotal" type="comp:LSC_StandardTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                     </xsd:complexType>
                   </xsd:element>
@@ -1046,21 +1076,51 @@
                             <xsd:documentation source="FieldText"/>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_LSC_ProposedTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_ProposedPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_LSC_ProposedTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_ProposedPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                     </xsd:complexType>
                   </xsd:element>
@@ -1079,21 +1139,51 @@
                             <xsd:documentation source="FieldText"/>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_LSC_MarginTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_LSC_MarginTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                     </xsd:complexType>
                   </xsd:element>
@@ -1114,33 +1204,63 @@
                             </xsd:appinfo>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_PassFailTotal" type="comp:PassFailTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                            <xsd:appinfo source="displayterm">
-                              <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
-                              <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
-                            </xsd:appinfo>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                            <xsd:appinfo source="displayterm">
-                              <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
-                              <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
-                            </xsd:appinfo>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                            <xsd:appinfo source="displayterm">
-                              <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
-                              <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
-                            </xsd:appinfo>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_PassFailTotal" type="comp:PassFailTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="displayterm">
+                                <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
+                                <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="displayterm">
+                                <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
+                                <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="displayterm">
+                                <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
+                                <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                     </xsd:complexType>
                   </xsd:element>
@@ -1250,21 +1370,51 @@
                             <xsd:documentation source="FieldText"/>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_LSC_StandardTotal" type="comp:LSC_StandardTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_LSC_StandardTotal" type="comp:LSC_StandardTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_LSC_StandardSourceEnergy" type="comp:LSC_StandardSourceEnergy" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_LSC_StandardPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                     </xsd:complexType>
                   </xsd:element>
@@ -1281,21 +1431,51 @@
                             <xsd:documentation source="FieldText"/>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_LSC_ProposedTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_LSC_ProposedTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_LSC_ProposedSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_LSC_ProposedPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                       <xsd:attribute name="ProposedAttribute1" type="com:CardinalDirection" use="optional"/>
                     </xsd:complexType>
@@ -1315,21 +1495,51 @@
                             <xsd:documentation source="FieldText"/>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_LSC_MarginTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_LSC_MarginTotal" type="comp:LSC_ProposedTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_LSC_MarginSourceEnergy" type="comp:LSC_ProposedSourceEnergy" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_LSC_MarginPeakCooling" type="comp:LSC_StandardPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                       <xsd:attribute name="ComplianceAttribute1" type="com:CardinalDirection" use="optional"/>
                     </xsd:complexType>
@@ -1351,33 +1561,63 @@
                             </xsd:appinfo>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Lsc03_PassFailTotal" type="comp:PassFailTotal" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                            <xsd:appinfo source="displayterm">
-                              <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
-                              <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
-                            </xsd:appinfo>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                            <xsd:appinfo source="displayterm">
-                              <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
-                              <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
-                            </xsd:appinfo>
-                          </xsd:annotation>
-                        </xsd:element>
-                        <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling" minOccurs="0">
-                          <xsd:annotation>
-                            <xsd:documentation source="FieldText"/>
-                            <xsd:appinfo source="displayterm">
-                              <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
-                              <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
-                            </xsd:appinfo>
-                          </xsd:annotation>
-                        </xsd:element>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc03_PassFailTotal" type="comp:PassFailTotal" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="displayterm">
+                                <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
+                                <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc03_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc04_PassFailSource" type="comp:PassFailSource" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="displayterm">
+                                <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
+                                <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc04_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
+                        <xsd:choice maxOccurs="1">
+                          <xsd:element name="Lsc05_PassFailPeakCooling" type="comp:PassFailPeakCooling" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="displayterm">
+                                <dtyp:displayterm value="Fail">Fail</dtyp:displayterm>
+                                <dtyp:displayterm value="Pass">Pass</dtyp:displayterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                          <xsd:element name="Lsc05_LSC_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                            <xsd:annotation>
+                              <xsd:documentation source="FieldText"/>
+                              <xsd:appinfo source="CBECCresXML">
+                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                              </xsd:appinfo>
+                            </xsd:annotation>
+                          </xsd:element>
+                        </xsd:choice>
                       </xsd:sequence>
                       <xsd:attribute name="ResultAttribute1" type="com:CardinalDirection" use="optional"/>
                     </xsd:complexType>

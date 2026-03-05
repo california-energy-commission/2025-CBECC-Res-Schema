@@ -1199,6 +1199,7 @@
             <dtyp:displayterm value="CleanlineThermal">Cleanline-Thermal</dtyp:displayterm>
             <dtyp:displayterm value="Climasol">Climasol</dtyp:displayterm>
             <dtyp:displayterm value="CommercialCollector">Commercial Collector</dtyp:displayterm>
+            <dtyp:displayterm value="CopperHeart">CopperHeart</dtyp:displayterm>
             <dtyp:displayterm value="DimasSA">Dimas SA</dtyp:displayterm>
             <dtyp:displayterm value="Dimplex">Dimplex</dtyp:displayterm>
             <dtyp:displayterm value="DLL">DLL</dtyp:displayterm>
@@ -1209,11 +1210,14 @@
             <dtyp:displayterm value="EcoFLARE">eco - FLARE</dtyp:displayterm>
             <dtyp:displayterm value="EcoFlarePRO">eco - Flare PRO</dtyp:displayterm>
             <dtyp:displayterm value="EcoSpark">Eco Spark</dtyp:displayterm>
+            <dtyp:displayterm value="EGO">EGO</dtyp:displayterm>
             <dtyp:displayterm value="Emperor">Emperor</dtyp:displayterm>
             <dtyp:displayterm value="Empire">Empire</dtyp:displayterm>
+            <dtyp:displayterm value="EnergyPlus">Energy+</dtyp:displayterm>
             <dtyp:displayterm value="EnerWorks_brand">EnerWorks</dtyp:displayterm>
             <dtyp:displayterm value="Ensol">ensol</dtyp:displayterm>
             <dtyp:displayterm value="EnsolFlatPlateSolarCollector">Ensol Flat Plate Solar Collector</dtyp:displayterm>
+            <dtyp:displayterm value="ER3">ER3</dtyp:displayterm>
             <dtyp:displayterm value="ErgSol">ergSol</dtyp:displayterm>
             <dtyp:displayterm value="Euro">Euro</dtyp:displayterm>
             <dtyp:displayterm value="EuroL20AR">EURO L20 AR</dtyp:displayterm>
@@ -1222,6 +1226,8 @@
             <dtyp:displayterm value="Fivestar">Fivestar</dtyp:displayterm>
             <dtyp:displayterm value="FK8209TSA">FK8209 TSA</dtyp:displayterm>
             <dtyp:displayterm value="FlatePlate">Flate Plate</dtyp:displayterm>
+            <dtyp:displayterm value="FMAX">FMAX</dtyp:displayterm>
+            <dtyp:displayterm value="FMAX_TOP">FMAX TOP</dtyp:displayterm>
             <dtyp:displayterm value="FreezeSafe">Freeze Safe</dtyp:displayterm>
             <dtyp:displayterm value="Fresource">Fresource</dtyp:displayterm>
             <dtyp:displayterm value="GEAR_Solar">GEAR Solar</dtyp:displayterm>
@@ -1233,6 +1239,7 @@
             <dtyp:displayterm value="Gull">Gull</dtyp:displayterm>
             <dtyp:displayterm value="HEJIASUN">HEJIASUN</dtyp:displayterm>
             <dtyp:displayterm value="Hewalex">Hewalex</dtyp:displayterm>
+            <dtyp:displayterm value="HICS">HICS</dtyp:displayterm>
             <dtyp:displayterm value="HITEK">HITEK</dtyp:displayterm>
             <dtyp:displayterm value="HitekSolar">Hitek Solar</dtyp:displayterm>
             <dtyp:displayterm value="HONE">HONE</dtyp:displayterm>
@@ -1258,12 +1265,14 @@
             <dtyp:displayterm value="LochinvarTiSun">Lochinvar/TiSun</dtyp:displayterm>
             <dtyp:displayterm value="Marvel">Marvel</dtyp:displayterm>
             <dtyp:displayterm value="MAXOL_FULL_PLATE2">MAXOL FULL PLATE 2.0</dtyp:displayterm>
+            <dtyp:displayterm value="MCGreen">MC Green</dtyp:displayterm>
             <dtyp:displayterm value="Megasun">Megasun</dtyp:displayterm>
             <dtyp:displayterm value="Micoe">Micoe</dtyp:displayterm>
             <dtyp:displayterm value="MicroFlo">Micro-Flo</dtyp:displayterm>
             <dtyp:displayterm value="ModuloSolar">Modulo Solar</dtyp:displayterm>
             <dtyp:displayterm value="MorningStar">MorningStar</dtyp:displayterm>
             <dtyp:displayterm value="MT_Power">MT-Power</dtyp:displayterm>
+            <dtyp:displayterm value="MTEC">MTEC</dtyp:displayterm>
             <dtyp:displayterm value="NextGenerationEnergy">Next Generation Energy, LLC</dtyp:displayterm>
             <dtyp:displayterm value="NimrodIndustries">Nimrod Industries Ltd.</dtyp:displayterm>
             <dtyp:displayterm value="NorthernComfort">Northern Comfort</dtyp:displayterm>
@@ -1271,6 +1280,7 @@
             <dtyp:displayterm value="NT_FLEX">NT-FLEX</dtyp:displayterm>
             <dtyp:displayterm value="NTI">NTI</dtyp:displayterm>
             <dtyp:displayterm value="OKP">OKP</dtyp:displayterm>
+            <dtyp:displayterm value="OLC">OLC</dtyp:displayterm>
             <dtyp:displayterm value="ONOSI">ONOSI</dtyp:displayterm>
             <dtyp:displayterm value="Oventrop">Oventrop Corporation</dtyp:displayterm>
             <dtyp:displayterm value="OventropSolar">Oventrop Solar</dtyp:displayterm>
@@ -1280,6 +1290,7 @@
             <dtyp:displayterm value="PG2FS">PG2.0-F/S</dtyp:displayterm>
             <dtyp:displayterm value="PIEP">PIEP</dtyp:displayterm>
             <dtyp:displayterm value="PowerPanel">Power Panel</dtyp:displayterm>
+            <dtyp:displayterm value="Prisma">Prisma</dtyp:displayterm>
             <dtyp:displayterm value="PYROPEG">PYROPEG</dtyp:displayterm>
             <dtyp:displayterm value="Radco">Radco</dtyp:displayterm>
             <dtyp:displayterm value="ResidentialCollector">Residential Collector</dtyp:displayterm>
@@ -1296,6 +1307,7 @@
             <dtyp:displayterm value="SilkRoadSolar">Silk Road Solar</dtyp:displayterm>
             <dtyp:displayterm value="Skyline">Skyline</dtyp:displayterm>
             <dtyp:displayterm value="Soflower">Soflower</dtyp:displayterm>
+            <dtyp:displayterm value="Sol29">Sol 29</dtyp:displayterm>
             <dtyp:displayterm value="Solahart">Solahart</dtyp:displayterm>
             <dtyp:displayterm value="Solamax">Solamax</dtyp:displayterm>
             <dtyp:displayterm value="SOLAR_FLAME">SOLAR FLAME</dtyp:displayterm>
@@ -1350,8 +1362,11 @@
             <dtyp:displayterm value="SUNVAPOR">SUNVAPOR</dtyp:displayterm>
             <dtyp:displayterm value="SUNVELOPE_SOLAR">SUNVELOPE SOLAR</dtyp:displayterm>
             <dtyp:displayterm value="SunvelopeSolar">Sunvelope Solar</dtyp:displayterm>
+            <dtyp:displayterm value="SupremeEnergy">Supreme Energy</dtyp:displayterm>
             <dtyp:displayterm value="SurfacePower">Surface Power</dtyp:displayterm>
+            <dtyp:displayterm value="SustainableProductsSWH">Sustainable Products SWH</dtyp:displayterm>
             <dtyp:displayterm value="TecSolar">TecSolar</dtyp:displayterm>
+            <dtyp:displayterm value="TERRAPlus">TERRA+</dtyp:displayterm>
             <dtyp:displayterm value="ThermoDynamicsGSeries">Thermo Dynamics G Series</dtyp:displayterm>
             <dtyp:displayterm value="Thermomax">Thermomax</dtyp:displayterm>
             <dtyp:displayterm value="ThermoPower">ThermoPower</dtyp:displayterm>
@@ -1392,6 +1407,7 @@
          <xsd:enumeration value="CleanlineThermal"/>
          <xsd:enumeration value="Climasol"/>
          <xsd:enumeration value="CommercialCollector"/>
+         <xsd:enumeration value="CopperHeart"/>
          <xsd:enumeration value="DimasSA"/>
          <xsd:enumeration value="Dimplex"/>
          <xsd:enumeration value="DLL"/>
@@ -1402,11 +1418,14 @@
          <xsd:enumeration value="EcoFLARE"/>
          <xsd:enumeration value="EcoFlarePRO"/>
          <xsd:enumeration value="EcoSpark"/>
+         <xsd:enumeration value="EGO"/>
          <xsd:enumeration value="Emperor"/>
          <xsd:enumeration value="Empire"/>
+         <xsd:enumeration value="EnergyPlus"/>
          <xsd:enumeration value="EnerWorks_brand"/>
          <xsd:enumeration value="Ensol"/>
          <xsd:enumeration value="EnsolFlatPlateSolarCollector"/>
+         <xsd:enumeration value="ER3"/>
          <xsd:enumeration value="ErgSol"/>
          <xsd:enumeration value="Euro"/>
          <xsd:enumeration value="EuroL20AR"/>
@@ -1415,6 +1434,8 @@
          <xsd:enumeration value="Fivestar"/>
          <xsd:enumeration value="FK8209TSA"/>
          <xsd:enumeration value="FlatePlate"/>
+         <xsd:enumeration value="FMAX"/>
+         <xsd:enumeration value="FMAX_TOP"/>
          <xsd:enumeration value="FreezeSafe"/>
          <xsd:enumeration value="Fresource"/>
          <xsd:enumeration value="GEAR_Solar"/>
@@ -1426,6 +1447,7 @@
          <xsd:enumeration value="Gull"/>
          <xsd:enumeration value="HEJIASUN"/>
          <xsd:enumeration value="Hewalex"/>
+         <xsd:enumeration value="HICS"/>
          <xsd:enumeration value="HITEK"/>
          <xsd:enumeration value="HitekSolar"/>
          <xsd:enumeration value="HONE"/>
@@ -1451,12 +1473,14 @@
          <xsd:enumeration value="LochinvarTiSun"/>
          <xsd:enumeration value="Marvel"/>
          <xsd:enumeration value="MAXOL_FULL_PLATE2"/>
+         <xsd:enumeration value="MCGreen"/>
          <xsd:enumeration value="Megasun"/>
          <xsd:enumeration value="Micoe"/>
          <xsd:enumeration value="MicroFlo"/>
          <xsd:enumeration value="ModuloSolar"/>
          <xsd:enumeration value="MorningStar"/>
          <xsd:enumeration value="MT_Power"/>
+         <xsd:enumeration value="MTEC"/>
          <xsd:enumeration value="NextGenerationEnergy"/>
          <xsd:enumeration value="NimrodIndustries"/>
          <xsd:enumeration value="NorthernComfort"/>
@@ -1464,6 +1488,7 @@
          <xsd:enumeration value="NT_FLEX"/>
          <xsd:enumeration value="NTI"/>
          <xsd:enumeration value="OKP"/>
+         <xsd:enumeration value="OLC"/>
          <xsd:enumeration value="ONOSI"/>
          <xsd:enumeration value="Oventrop"/>
          <xsd:enumeration value="OventropSolar"/>
@@ -1473,6 +1498,7 @@
          <xsd:enumeration value="PG2FS"/>
          <xsd:enumeration value="PIEP"/>
          <xsd:enumeration value="PowerPanel"/>
+         <xsd:enumeration value="Prisma"/>
          <xsd:enumeration value="PYROPEG"/>
          <xsd:enumeration value="Radco"/>
          <xsd:enumeration value="ResidentialCollector"/>
@@ -1489,6 +1515,7 @@
          <xsd:enumeration value="SilkRoadSolar"/>
          <xsd:enumeration value="Skyline"/>
          <xsd:enumeration value="Soflower"/>
+         <xsd:enumeration value="Sol29"/>
          <xsd:enumeration value="Solahart"/>
          <xsd:enumeration value="Solamax"/>
          <xsd:enumeration value="SOLAR_FLAME"/>
@@ -1543,8 +1570,11 @@
          <xsd:enumeration value="SUNVAPOR"/>
          <xsd:enumeration value="SUNVELOPE_SOLAR"/>
          <xsd:enumeration value="SunvelopeSolar"/>
+         <xsd:enumeration value="SupremeEnergy"/>
          <xsd:enumeration value="SurfacePower"/>
+         <xsd:enumeration value="SustainableProductsSWH"/>
          <xsd:enumeration value="TecSolar"/>
+         <xsd:enumeration value="TERRAPlus"/>
          <xsd:enumeration value="ThermoDynamicsGSeries"/>
          <xsd:enumeration value="Thermomax"/>
          <xsd:enumeration value="ThermoPower"/>
@@ -1738,6 +1768,7 @@
             <dtyp:displayterm value="LochinvarAHP250C">AHP250-*******-***C****</dtyp:displayterm>
             <dtyp:displayterm value="LochinvarAHP250CMP">AHP250-*******-***C**** (MP, 46kw cap @ 40F)</dtyp:displayterm>
             <dtyp:displayterm value="LochinvarAHP250MP">AHP250-*******-***N**** (MP, 46kw cap @ 40F)</dtyp:displayterm>
+            <dtyp:displayterm value="MITSUBISHI_QAHV_N136TAU_HPB_SP">Mitsubishi QAHV-N136TAU-HPB (40kW cap @ 40F)</dtyp:displayterm>
             <dtyp:displayterm value="NyleC125A">C125A</dtyp:displayterm>
             <dtyp:displayterm value="NyleC125A_C">C125A-C</dtyp:displayterm>
             <dtyp:displayterm value="NyleC125A_CMP">Nyle C125A -C (MP, 26kw cap @ 40F)</dtyp:displayterm>
@@ -1851,6 +1882,7 @@
          <xsd:enumeration value="LochinvarAHP250C"/>
          <xsd:enumeration value="LochinvarAHP250CMP"/>
          <xsd:enumeration value="LochinvarAHP250MP"/>
+         <xsd:enumeration value="MITSUBISHI_QAHV_N136TAU_HPB_SP"/>
          <xsd:enumeration value="NyleC125A"/>
          <xsd:enumeration value="NyleC125A_C"/>
          <xsd:enumeration value="NyleC125A_CMP"/>
@@ -7640,6 +7672,8 @@
             <dtyp:displayterm value="Generic5kW">Generic 5kW</dtyp:displayterm>
             <dtyp:displayterm value="IceAir_ccHPWH275D_MP">IceAir ccHPWH275D_MP</dtyp:displayterm> 
             <dtyp:displayterm value="IceAir_ccHPWH550D_MP">IceAir ccHPWH550D_MP</dtyp:displayterm> 
+            <dtyp:displayterm value="LG_APHWC50">LG APHWC 50</dtyp:displayterm>
+            <dtyp:displayterm value="LG_APHWC80">LG APHWC 80</dtyp:displayterm>
             <dtyp:displayterm value="NyleC125A_CWP_SP">Nyle C125A-CWP-SP</dtyp:displayterm>
             <dtyp:displayterm value="NyleC125A_SP">Nyle C125A-SP</dtyp:displayterm>
             <dtyp:displayterm value="NyleC185A_CWP_SP">Nyle C185A-CWP-SP</dtyp:displayterm>
@@ -9274,9 +9308,11 @@
             <dtyp:displayterm value="BronxRecycing">Bronx Recycing Center Inc.</dtyp:displayterm>
             <dtyp:displayterm value="ButlerSun">Butler Sun Solutions, Inc.</dtyp:displayterm>
             <dtyp:displayterm value="CaleffiSolar">Caleffi Solar</dtyp:displayterm>
+            <dtyp:displayterm value="CALPAK_SA">CALPAK S.A.</dtyp:displayterm>
             <dtyp:displayterm value="ChangzhouSolar">Changzhou HE Jia Solar Energy Co., Ltd.</dtyp:displayterm>
             <dtyp:displayterm value="ChinaHitekSolar">China Hitek Solar Co., Ltd.</dtyp:displayterm>
             <dtyp:displayterm value="Chromagen">Chromagen</dtyp:displayterm>
+            <dtyp:displayterm value="ChromagenIsraelLtd">Chromagen Israel Ltd</dtyp:displayterm>
             <dtyp:displayterm value="CommercialEnergySavings">Commercial Energy Savings Plus</dtyp:displayterm>
             <dtyp:displayterm value="DehlsenAssociates">Dehlsen Associates LLC.</dtyp:displayterm>
             <dtyp:displayterm value="DimasSA">Dimas SA</dtyp:displayterm>
@@ -9320,6 +9356,7 @@
             <dtyp:displayterm value="KlobenSud">Kloben Sud S.r.l.</dtyp:displayterm>
             <dtyp:displayterm value="Lochinvar">Lochinvar, LLC</dtyp:displayterm>
             <dtyp:displayterm value="MagenEcoEnergy">Magen Eco-Energy</dtyp:displayterm>
+            <dtyp:displayterm value="MCGreenSolutionsLLC">MC Green Solutions, LLC</dtyp:displayterm>
             <dtyp:displayterm value="ModernMarket">Modern Market Inc.</dtyp:displayterm>
             <dtyp:displayterm value="ModuloSolar">Modulo Solar SA de CV</dtyp:displayterm>
             <dtyp:displayterm value="NakedEnergyLtd">Naked Energy Ltd</dtyp:displayterm>
@@ -9331,6 +9368,7 @@
             <dtyp:displayterm value="Papaemmanouel">Papaemmanouel S.A.</dtyp:displayterm>
             <dtyp:displayterm value="PhotonomiGlobal">Photonomi Global Group</dtyp:displayterm>
             <dtyp:displayterm value="PIEP_Solar">PIEP Solar Technology Co., Ltd.</dtyp:displayterm>
+            <dtyp:displayterm value="PleionSpA">Pleion SpA</dtyp:displayterm>
             <dtyp:displayterm value="PowerPanel">Power Panel Inc.</dtyp:displayterm>
             <dtyp:displayterm value="RGResourcesTechnologies">RG Resources Technologies</dtyp:displayterm>
             <dtyp:displayterm value="RheemWaterHeaters">Rheem Water Heaters</dtyp:displayterm>
@@ -9359,6 +9397,7 @@
             <dtyp:displayterm value="SolightSolar">Solight Solar Inc</dtyp:displayterm>
             <dtyp:displayterm value="SolimpeksSolar">Solimpeks Solar Energy Corp</dtyp:displayterm>
             <dtyp:displayterm value="SoltekPuertoRicoLLC">Soltek Puerto Rico LLC</dtyp:displayterm>
+            <dtyp:displayterm value="SPTreatmentSystemsInc">SP Treatment Systems Inc.</dtyp:displayterm>
             <dtyp:displayterm value="StiebelEltron">Stiebel Eltron</dtyp:displayterm>
             <dtyp:displayterm value="SunbankSolar">Sunbank Solar</dtyp:displayterm>
             <dtyp:displayterm value="SunEarth">SunEarth, Inc.</dtyp:displayterm>
@@ -9381,6 +9420,7 @@
             <dtyp:displayterm value="TsinghuaSolar">Tsinghua Solar Systems, Ltd.</dtyp:displayterm>
             <dtyp:displayterm value="TSW_Holding">TSW Holding Corp.</dtyp:displayterm>
             <dtyp:displayterm value="TVP_Solar">TVP Solar</dtyp:displayterm>
+            <dtyp:displayterm value="TychonLLC">Tychon LLC</dtyp:displayterm>
             <dtyp:displayterm value="UMA_Solar">UMA Solar</dtyp:displayterm>
             <dtyp:displayterm value="UniversalSolar">Universal Solar Products, Inc.</dtyp:displayterm>
             <dtyp:displayterm value="ViessmannManufacturing">Viessmann Manufacturing Company (US) Inc.</dtyp:displayterm>
@@ -9389,6 +9429,7 @@
             <dtyp:displayterm value="YourHomeTech">Your Home Tech., Ltd.</dtyp:displayterm>
             <dtyp:displayterm value="YourSolarHome">Your Solar Home, Inc.</dtyp:displayterm>
             <dtyp:displayterm value="ZhejiangJiadeleSolar">Zhejiang Jiadele Solar Energy Co., Ltd.</dtyp:displayterm>
+            <dtyp:displayterm value="ZhejiangJureSolarTechnologyCoLTD">ZHEJIANG JURE SOLAR TECHNOLOGY CO., LTD.</dtyp:displayterm>
             <dtyp:displayterm value="ZhejiangShendeNewEnergy">Zhejiang Shende New Energy Co., Ltd.</dtyp:displayterm>
             <dtyp:displayterm value="ZhejiangShentaiSolar">Zhejiang Shentai Solar Energy Co., Ltd.</dtyp:displayterm>
             <dtyp:displayterm value="ZhejiangSiditeNewEnergy">Zhejiang Sidite New Energy Co., Ltd.</dtyp:displayterm>
@@ -9412,9 +9453,11 @@
          <xsd:enumeration value="BronxRecycing"/>
          <xsd:enumeration value="ButlerSun"/>
          <xsd:enumeration value="CaleffiSolar"/>
+         <xsd:enumeration value="CALPAK_SA"/>
          <xsd:enumeration value="ChangzhouSolar"/>
          <xsd:enumeration value="ChinaHitekSolar"/>
          <xsd:enumeration value="Chromagen"/>
+         <xsd:enumeration value="ChromagenIsraelLtd"/>
          <xsd:enumeration value="CommercialEnergySavings"/>
          <xsd:enumeration value="DehlsenAssociates"/>
          <xsd:enumeration value="DimasSA"/>
@@ -9458,6 +9501,7 @@
          <xsd:enumeration value="KlobenSud"/>
          <xsd:enumeration value="Lochinvar"/>
          <xsd:enumeration value="MagenEcoEnergy"/>
+         <xsd:enumeration value="MCGreenSolutionsLLC"/>
          <xsd:enumeration value="ModernMarket"/>
          <xsd:enumeration value="ModuloSolar"/>
          <xsd:enumeration value="NakedEnergyLtd"/>
@@ -9469,6 +9513,7 @@
          <xsd:enumeration value="Papaemmanouel"/>
          <xsd:enumeration value="PhotonomiGlobal"/>
          <xsd:enumeration value="PIEP_Solar"/>
+         <xsd:enumeration value="PleionSpA"/>
          <xsd:enumeration value="PowerPanel"/>
          <xsd:enumeration value="RGResourcesTechnologies"/>
          <xsd:enumeration value="RheemWaterHeaters"/>
@@ -9497,6 +9542,7 @@
          <xsd:enumeration value="SolightSolar"/>
          <xsd:enumeration value="SolimpeksSolar"/>
          <xsd:enumeration value="SoltekPuertoRicoLLC"/>
+         <xsd:enumeration value="SPTreatmentSystemsInc"/>
          <xsd:enumeration value="StiebelEltron"/>
          <xsd:enumeration value="SunbankSolar"/>
          <xsd:enumeration value="SunEarth"/>
@@ -9519,6 +9565,7 @@
          <xsd:enumeration value="TsinghuaSolar"/>
          <xsd:enumeration value="TSW_Holding"/>
          <xsd:enumeration value="TVP_Solar"/>
+         <xsd:enumeration value="TychonLLC"/>
          <xsd:enumeration value="UMA_Solar"/>
          <xsd:enumeration value="UniversalSolar"/>
          <xsd:enumeration value="ViessmannManufacturing"/>
@@ -9527,6 +9574,7 @@
          <xsd:enumeration value="YourHomeTech"/>
          <xsd:enumeration value="YourSolarHome"/>
          <xsd:enumeration value="ZhejiangJiadeleSolar"/>
+         <xsd:enumeration value="ZhejiangJureSolarTechnologyCoLTD"/>
          <xsd:enumeration value="ZhejiangShendeNewEnergy"/>
          <xsd:enumeration value="ZhejiangShentaiSolar"/>
          <xsd:enumeration value="ZhejiangSiditeNewEnergy"/>
@@ -9572,6 +9620,8 @@
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="042012">042012</dtyp:displayterm>
             <dtyp:displayterm value="1_0">1.0</dtyp:displayterm>
+            <dtyp:displayterm value="1_50_1_50H">1.50, 1.50H</dtyp:displayterm>
+            <dtyp:displayterm value="1_82_1_82H">1.82, 1.82H</dtyp:displayterm>
             <dtyp:displayterm value="10_01">10-01</dtyp:displayterm>
             <dtyp:displayterm value="1000DF">1000 DF</dtyp:displayterm>
             <dtyp:displayterm value="1000G">1000G</dtyp:displayterm>
@@ -9585,7 +9635,14 @@
             <dtyp:displayterm value="1500GS">1500GS</dtyp:displayterm>
             <dtyp:displayterm value="1808">1808</dtyp:displayterm>
             <dtyp:displayterm value="1809">1809</dtyp:displayterm>
+            <dtyp:displayterm value="2">2</dtyp:displayterm>
+            <dtyp:displayterm value="2_0_2_00H">2.0, 2.00H</dtyp:displayterm>
+            <dtyp:displayterm value="2_37_2_37H">2.37, 2.37H</dtyp:displayterm>
+            <dtyp:displayterm value="2_5">2.5</dtyp:displayterm>
+            <dtyp:displayterm value="2_72">2.72</dtyp:displayterm>
+            <dtyp:displayterm value="2_72_2_72H">2.72, 2.72H</dtyp:displayterm>
             <dtyp:displayterm value="20_01">20-01</dtyp:displayterm>
+            <dtyp:displayterm value="200">200</dtyp:displayterm>
             <dtyp:displayterm value="2000A">2000A</dtyp:displayterm>
             <dtyp:displayterm value="2000B">2000B</dtyp:displayterm>
             <dtyp:displayterm value="2000DF">2000 DF</dtyp:displayterm>
@@ -9601,10 +9658,14 @@
             <dtyp:displayterm value="2101">2101</dtyp:displayterm>
             <dtyp:displayterm value="2108">2108</dtyp:displayterm>
             <dtyp:displayterm value="2110">2110</dtyp:displayterm>
+            <dtyp:displayterm value="220">220</dtyp:displayterm>
+            <dtyp:displayterm value="25">25</dtyp:displayterm>
             <dtyp:displayterm value="2510">2510</dtyp:displayterm>
             <dtyp:displayterm value="2512">2512</dtyp:displayterm>
             <dtyp:displayterm value="2512H">2512H</dtyp:displayterm>
             <dtyp:displayterm value="252S4">252 S4</dtyp:displayterm>
+            <dtyp:displayterm value="260">260</dtyp:displayterm>
+            <dtyp:displayterm value="29">29</dtyp:displayterm>
             <dtyp:displayterm value="3000DF">3000 DF</dtyp:displayterm>
             <dtyp:displayterm value="300T_SP3_2m2">300TSP32m2</dtyp:displayterm>
             <dtyp:displayterm value="300T_SP3_3m2">300TSP33m2</dtyp:displayterm>
@@ -9703,6 +9764,8 @@
             <dtyp:displayterm value="CLS2510">CLS 2510</dtyp:displayterm>
             <dtyp:displayterm value="COL4X8NL_SG1SH10US">COL-4X8-NL-SG1-SH10US</dtyp:displayterm>
             <dtyp:displayterm value="COL4X8TL_SG1SD10US">COL-4X8-TL-SG1-SD10US</dtyp:displayterm>
+            <dtyp:displayterm value="CP_20">CP-20</dtyp:displayterm>
+            <dtyp:displayterm value="CP_40">CP-40</dtyp:displayterm>
             <dtyp:displayterm value="CPC12INOX">CPC 12 INOX</dtyp:displayterm>
             <dtyp:displayterm value="CPC12OEM">CPC 12 OEM</dtyp:displayterm>
             <dtyp:displayterm value="CPC12XL_INOX">CPC 12 XL INOX</dtyp:displayterm>
@@ -9803,12 +9866,14 @@
             <dtyp:displayterm value="ETC_30ETC_30C">ETC-30 / ETC-30C</dtyp:displayterm>
             <dtyp:displayterm value="EuroL20MQAR">EURO L20 MQ AR</dtyp:displayterm>
             <dtyp:displayterm value="EuroL42HTF">Euro L42 HTF</dtyp:displayterm>
+            <dtyp:displayterm value="EVO29">EVO 29</dtyp:displayterm>
             <dtyp:displayterm value="FA2_3">FA 2/3</dtyp:displayterm>
             <dtyp:displayterm value="FA2_4">FA 2/4</dtyp:displayterm>
             <dtyp:displayterm value="FA2_5">FA 2/5</dtyp:displayterm>
             <dtyp:displayterm value="FA2_6">FA 2/6</dtyp:displayterm>
             <dtyp:displayterm value="FCC1S">FCC-1S</dtyp:displayterm>
             <dtyp:displayterm value="FH2500">FH2500</dtyp:displayterm>
+            <dtyp:displayterm value="FK_9251N">FK 9251N</dtyp:displayterm>
             <dtyp:displayterm value="FK7250L">FK7250L</dtyp:displayterm>
             <dtyp:displayterm value="FK7250N">FK7250N</dtyp:displayterm>
             <dtyp:displayterm value="FK8209N3H_TSA">FK8209N 3H TSA</dtyp:displayterm>
@@ -9831,6 +9896,7 @@
             <dtyp:displayterm value="FPC_A40">FPC-A40</dtyp:displayterm>
             <dtyp:displayterm value="FPC1200A">FPC1200A</dtyp:displayterm>
             <dtyp:displayterm value="FPC1200D">FPC1200D</dtyp:displayterm>
+            <dtyp:displayterm value="FPC1500C">FPC1500C</dtyp:displayterm>
             <dtyp:displayterm value="FPE17">FPE-17</dtyp:displayterm>
             <dtyp:displayterm value="FPE21">FPE-21</dtyp:displayterm>
             <dtyp:displayterm value="FPE30">FPE-30</dtyp:displayterm>
@@ -9851,6 +9917,14 @@
             <dtyp:displayterm value="G32P">G32-P</dtyp:displayterm>
             <dtyp:displayterm value="G40">G40</dtyp:displayterm>
             <dtyp:displayterm value="GD150_25">GD150-25</dtyp:displayterm>
+            <dtyp:displayterm value="GEO15">GEO 15</dtyp:displayterm>
+            <dtyp:displayterm value="GEO17">GEO 17</dtyp:displayterm>
+            <dtyp:displayterm value="GEO19">GEO 19</dtyp:displayterm>
+            <dtyp:displayterm value="GEO20">GEO 20</dtyp:displayterm>
+            <dtyp:displayterm value="GEO23">GEO 23</dtyp:displayterm>
+            <dtyp:displayterm value="GEO25">GEO 25</dtyp:displayterm>
+            <dtyp:displayterm value="GEO27">GEO 27</dtyp:displayterm>
+            <dtyp:displayterm value="GEO29">GEO 29</dtyp:displayterm>
             <dtyp:displayterm value="GK3102FL">GK 3102 FL</dtyp:displayterm>
             <dtyp:displayterm value="GK3102FL_AR">GK 3102 FL-AR</dtyp:displayterm>
             <dtyp:displayterm value="GK3133">GK 3133</dtyp:displayterm>
@@ -9895,6 +9969,7 @@
             <dtyp:displayterm value="IS32">IS-32</dtyp:displayterm>
             <dtyp:displayterm value="IS40">IS-40</dtyp:displayterm>
             <dtyp:displayterm value="J">J</dtyp:displayterm>
+            <dtyp:displayterm value="JDL_PG2_0_80">JDL-PG2.0-80</dtyp:displayterm>
             <dtyp:displayterm value="JDLPM10_58_1_8A">JDL-PM10-58-1.8A</dtyp:displayterm>
             <dtyp:displayterm value="JDLPM15_58_1_8A">JDL-PM15-58-1.8A</dtyp:displayterm>
             <dtyp:displayterm value="JDLPM18_58_1_8A">JDL-PM18-58-1.8A</dtyp:displayterm>
@@ -9926,6 +10001,7 @@
             <dtyp:displayterm value="LNRGWF2_5_25_58_1800B1">LN-RG-WF-2.5/25-58/1800-B1</dtyp:displayterm>
             <dtyp:displayterm value="LNRGWF3_30_58_1800B1">LN-RG-WF-3.0/30-58/1800-B1</dtyp:displayterm>
             <dtyp:displayterm value="MaxolMS2_5">Maxol MS 2.5</dtyp:displayterm>
+            <dtyp:displayterm value="MCG_18">MCG-18</dtyp:displayterm>
             <dtyp:displayterm value="ModelT1">MODEL T1</dtyp:displayterm>
             <dtyp:displayterm value="MS_21">MS-21</dtyp:displayterm>
             <dtyp:displayterm value="MS_24">MS-24</dtyp:displayterm>
@@ -9992,6 +10068,8 @@
             <dtyp:displayterm value="PG_FS">PG-F/S</dtyp:displayterm>
             <dtyp:displayterm value="PIEP1020N01A">PIEP1020-N01A</dtyp:displayterm>
             <dtyp:displayterm value="PIEP4896S01A">PIEP4896-S01A</dtyp:displayterm>
+            <dtyp:displayterm value="PremiumS">Premium S</dtyp:displayterm>
+            <dtyp:displayterm value="PremiumW">Premium W</dtyp:displayterm>
             <dtyp:displayterm value="PVT1">PVT1</dtyp:displayterm>
             <dtyp:displayterm value="RothR1">ROTH R1</dtyp:displayterm>
             <dtyp:displayterm value="RS21BC">RS21-BC</dtyp:displayterm>
@@ -10075,6 +10153,13 @@
             <dtyp:displayterm value="SLEF24">SLEF-24</dtyp:displayterm>
             <dtyp:displayterm value="SLES30">SLES-30</dtyp:displayterm>
             <dtyp:displayterm value="SLES40">SLES-40</dtyp:displayterm>
+            <dtyp:displayterm value="SLR_BX_02C15_75">SLR-BX-02C15.75</dtyp:displayterm>
+            <dtyp:displayterm value="SLR_BX_02C31_50">SLR-BX-02C31.50</dtyp:displayterm>
+            <dtyp:displayterm value="SLR_BX_03C31_50">SLR-BX-03C31.50</dtyp:displayterm>
+            <dtyp:displayterm value="SLR_BX_04C31_50">SLR-BX-04C31.50</dtyp:displayterm>
+            <dtyp:displayterm value="SLR_BX_05C37_50">SLR-BX-05C37.50</dtyp:displayterm>
+            <dtyp:displayterm value="SLR_BX_05C50_00">SLR-BX-05C50.00</dtyp:displayterm>
+            <dtyp:displayterm value="SLR_BX_05C75_00">SLR-BX-05C75.00</dtyp:displayterm>
             <dtyp:displayterm value="SLSG40">SLSG-40</dtyp:displayterm>
             <dtyp:displayterm value="SLSG40PLUS">SLSG-40 PLUS</dtyp:displayterm>
             <dtyp:displayterm value="SLU1500_12">SLU-1500/12</dtyp:displayterm>
@@ -10096,6 +10181,7 @@
             <dtyp:displayterm value="SolarpacTP12">Solarpac TP12</dtyp:displayterm>
             <dtyp:displayterm value="SolarpacTP24">Solarpac TP24</dtyp:displayterm>
             <dtyp:displayterm value="SolDuc">Sol Duc</dtyp:displayterm>
+            <dtyp:displayterm value="SolpalPlusL">Solpal Plus L</dtyp:displayterm>
             <dtyp:displayterm value="SP501">SP501</dtyp:displayterm>
             <dtyp:displayterm value="SPA2000">SPA2000</dtyp:displayterm>
             <dtyp:displayterm value="SPA58_1800_12">SPA-58/1800-12</dtyp:displayterm>
@@ -10106,6 +10192,7 @@
             <dtyp:displayterm value="SPA58_1800_30">SPA-58/1800-30</dtyp:displayterm>
             <dtyp:displayterm value="Spark30">Spark 30</dtyp:displayterm>
             <dtyp:displayterm value="Spark40">Spark 40</dtyp:displayterm>
+            <dtyp:displayterm value="SPBlueWave29">SP BlueWave 29</dtyp:displayterm>
             <dtyp:displayterm value="SPF_ET20HP">SPF-ET20HP</dtyp:displayterm>
             <dtyp:displayterm value="SPF26">SPF 26</dtyp:displayterm>
             <dtyp:displayterm value="SPF32">SPF 32</dtyp:displayterm>
@@ -10148,6 +10235,7 @@
             <dtyp:displayterm value="ST2500SSelective">ST 2500 SELECTIVE</dtyp:displayterm>
             <dtyp:displayterm value="STC100">STC100</dtyp:displayterm>
             <dtyp:displayterm value="STSTC32RSTSTC24R">STS-TC32R, STS-TC24R</dtyp:displayterm>
+            <dtyp:displayterm value="SUNPAD">SUNPAD</dtyp:displayterm>
             <dtyp:displayterm value="SunPro21">SunPro21</dtyp:displayterm>
             <dtyp:displayterm value="SunPro24">SunPro24</dtyp:displayterm>
             <dtyp:displayterm value="SunPro32">SunPro32</dtyp:displayterm>
@@ -10237,6 +10325,7 @@
             <dtyp:displayterm value="TZ58_1800_25R2">TZ58/1800-25R2</dtyp:displayterm>
             <dtyp:displayterm value="TZ58_1800_30R">TZ58/1800-30R</dtyp:displayterm>
             <dtyp:displayterm value="TZ58_1800_30R2">TZ58/1800-30R2</dtyp:displayterm>
+            <dtyp:displayterm value="USP_619">USP-619</dtyp:displayterm>
             <dtyp:displayterm value="USP519">USP-519</dtyp:displayterm>
             <dtyp:displayterm value="USSOL2_72m2">US-SOL_2.72m2</dtyp:displayterm>
             <dtyp:displayterm value="USSOL2_72m2Horizontal">US-SOL_2.72m2 HORIZONTAL</dtyp:displayterm>
@@ -10268,6 +10357,8 @@
       <xsd:restriction base="dtyp:EnumerationConstant">
          <xsd:enumeration value="042012"/>
          <xsd:enumeration value="1_0"/>
+         <xsd:enumeration value="1_50_1_50H"/>
+         <xsd:enumeration value="1_82_1_82H"/>
          <xsd:enumeration value="10_01"/>
          <xsd:enumeration value="1000DF"/>
          <xsd:enumeration value="1000G"/>
@@ -10281,7 +10372,14 @@
          <xsd:enumeration value="1500GS"/>
          <xsd:enumeration value="1808"/>
          <xsd:enumeration value="1809"/>
+         <xsd:enumeration value="2"/>
+         <xsd:enumeration value="2_0_2_00H"/>
+         <xsd:enumeration value="2_37_2_37H"/>
+         <xsd:enumeration value="2_5"/>
+         <xsd:enumeration value="2_72"/>
+         <xsd:enumeration value="2_72_2_72H"/>
          <xsd:enumeration value="20_01"/>
+         <xsd:enumeration value="200"/>
          <xsd:enumeration value="2000A"/>
          <xsd:enumeration value="2000B"/>
          <xsd:enumeration value="2000DF"/>
@@ -10297,10 +10395,14 @@
          <xsd:enumeration value="2101"/>
          <xsd:enumeration value="2108"/>
          <xsd:enumeration value="2110"/>
+         <xsd:enumeration value="220"/>
+         <xsd:enumeration value="25"/>
          <xsd:enumeration value="2510"/>
          <xsd:enumeration value="2512"/>
          <xsd:enumeration value="2512H"/>
          <xsd:enumeration value="252S4"/>
+         <xsd:enumeration value="260"/>
+         <xsd:enumeration value="29"/>
          <xsd:enumeration value="3000DF"/>
          <xsd:enumeration value="300T_SP3_2m2"/>
          <xsd:enumeration value="300T_SP3_3m2"/>
@@ -10399,6 +10501,8 @@
          <xsd:enumeration value="CLS2510"/>
          <xsd:enumeration value="COL4X8NL_SG1SH10US"/>
          <xsd:enumeration value="COL4X8TL_SG1SD10US"/>
+         <xsd:enumeration value="CP_20"/>
+         <xsd:enumeration value="CP_40"/>
          <xsd:enumeration value="CPC12INOX"/>
          <xsd:enumeration value="CPC12OEM"/>
          <xsd:enumeration value="CPC12XL_INOX"/>
@@ -10499,12 +10603,14 @@
          <xsd:enumeration value="ETC_30ETC_30C"/>
          <xsd:enumeration value="EuroL20MQAR"/>
          <xsd:enumeration value="EuroL42HTF"/>
+         <xsd:enumeration value="EVO29"/>
          <xsd:enumeration value="FA2_3"/>
          <xsd:enumeration value="FA2_4"/>
          <xsd:enumeration value="FA2_5"/>
          <xsd:enumeration value="FA2_6"/>
          <xsd:enumeration value="FCC1S"/>
          <xsd:enumeration value="FH2500"/>
+         <xsd:enumeration value="FK_9251N"/>
          <xsd:enumeration value="FK7250L"/>
          <xsd:enumeration value="FK7250N"/>
          <xsd:enumeration value="FK8209N3H_TSA"/>
@@ -10527,6 +10633,7 @@
          <xsd:enumeration value="FPC_A40"/>
          <xsd:enumeration value="FPC1200A"/>
          <xsd:enumeration value="FPC1200D"/>
+         <xsd:enumeration value="FPC1500C"/>
          <xsd:enumeration value="FPE17"/>
          <xsd:enumeration value="FPE21"/>
          <xsd:enumeration value="FPE30"/>
@@ -10547,6 +10654,14 @@
          <xsd:enumeration value="G32P"/>
          <xsd:enumeration value="G40"/>
          <xsd:enumeration value="GD150_25"/>
+         <xsd:enumeration value="GEO15"/>
+         <xsd:enumeration value="GEO17"/>
+         <xsd:enumeration value="GEO19"/>
+         <xsd:enumeration value="GEO20"/>
+         <xsd:enumeration value="GEO23"/>
+         <xsd:enumeration value="GEO25"/>
+         <xsd:enumeration value="GEO27"/>
+         <xsd:enumeration value="GEO29"/>
          <xsd:enumeration value="GK3102FL"/>
          <xsd:enumeration value="GK3102FL_AR"/>
          <xsd:enumeration value="GK3133"/>
@@ -10591,6 +10706,7 @@
          <xsd:enumeration value="IS32"/>
          <xsd:enumeration value="IS40"/>
          <xsd:enumeration value="J"/>
+         <xsd:enumeration value="JDL_PG2_0_80"/>
          <xsd:enumeration value="JDLPM10_58_1_8A"/>
          <xsd:enumeration value="JDLPM15_58_1_8A"/>
          <xsd:enumeration value="JDLPM18_58_1_8A"/>
@@ -10622,6 +10738,7 @@
          <xsd:enumeration value="LNRGWF2_5_25_58_1800B1"/>
          <xsd:enumeration value="LNRGWF3_30_58_1800B1"/>
          <xsd:enumeration value="MaxolMS2_5"/>
+         <xsd:enumeration value="MCG_18"/>
          <xsd:enumeration value="ModelT1"/>
          <xsd:enumeration value="MS_21"/>
          <xsd:enumeration value="MS_24"/>
@@ -10688,6 +10805,8 @@
          <xsd:enumeration value="PG_FS"/>
          <xsd:enumeration value="PIEP1020N01A"/>
          <xsd:enumeration value="PIEP4896S01A"/>
+         <xsd:enumeration value="PremiumS"/>
+         <xsd:enumeration value="PremiumW"/>
          <xsd:enumeration value="PVT1"/>
          <xsd:enumeration value="RothR1"/>
          <xsd:enumeration value="RS21BC"/>
@@ -10771,6 +10890,13 @@
          <xsd:enumeration value="SLEF24"/>
          <xsd:enumeration value="SLES30"/>
          <xsd:enumeration value="SLES40"/>
+         <xsd:enumeration value="SLR_BX_02C15_75"/>
+         <xsd:enumeration value="SLR_BX_02C31_50"/>
+         <xsd:enumeration value="SLR_BX_03C31_50"/>
+         <xsd:enumeration value="SLR_BX_04C31_50"/>
+         <xsd:enumeration value="SLR_BX_05C37_50"/>
+         <xsd:enumeration value="SLR_BX_05C50_00"/>
+         <xsd:enumeration value="SLR_BX_05C75_00"/>
          <xsd:enumeration value="SLSG40"/>
          <xsd:enumeration value="SLSG40PLUS"/>
          <xsd:enumeration value="SLU1500_12"/>
@@ -10792,6 +10918,7 @@
          <xsd:enumeration value="SolarpacTP12"/>
          <xsd:enumeration value="SolarpacTP24"/>
          <xsd:enumeration value="SolDuc"/>
+         <xsd:enumeration value="SolpalPlusL"/>
          <xsd:enumeration value="SP501"/>
          <xsd:enumeration value="SPA2000"/>
          <xsd:enumeration value="SPA58_1800_12"/>
@@ -10802,6 +10929,7 @@
          <xsd:enumeration value="SPA58_1800_30"/>
          <xsd:enumeration value="Spark30"/>
          <xsd:enumeration value="Spark40"/>
+         <xsd:enumeration value="SPBlueWave29"/>
          <xsd:enumeration value="SPF_ET20HP"/>
          <xsd:enumeration value="SPF26"/>
          <xsd:enumeration value="SPF32"/>
@@ -10844,6 +10972,7 @@
          <xsd:enumeration value="ST2500SSelective"/>
          <xsd:enumeration value="STC100"/>
          <xsd:enumeration value="STSTC32RSTSTC24R"/>
+         <xsd:enumeration value="SUNPAD"/>
          <xsd:enumeration value="SunPro21"/>
          <xsd:enumeration value="SunPro24"/>
          <xsd:enumeration value="SunPro32"/>
@@ -10933,6 +11062,7 @@
          <xsd:enumeration value="TZ58_1800_25R2"/>
          <xsd:enumeration value="TZ58_1800_30R"/>
          <xsd:enumeration value="TZ58_1800_30R2"/>
+         <xsd:enumeration value="USP_619"/>
          <xsd:enumeration value="USP519"/>
          <xsd:enumeration value="USSOL2_72m2"/>
          <xsd:enumeration value="USSOL2_72m2Horizontal"/>
@@ -12086,6 +12216,7 @@
             <dtyp:displayterm value="EvaporativelyCooledCondenser">Evaporatively cooled condenser</dtyp:displayterm>
             <dtyp:displayterm value="GasAbsorptionAC">Gas absorption AC</dtyp:displayterm>
             <dtyp:displayterm value="GroundSourceHeatPump">Ground source heat pump</dtyp:displayterm>
+            <dtyp:displayterm value="HeatPumpDHWCombo">Heat Pump DHW Combo</dtyp:displayterm>
             <dtyp:displayterm value="Hydronic">Hydronic</dtyp:displayterm>
             <dtyp:displayterm value="HydronicHP">Hydronic HP</dtyp:displayterm>
             <dtyp:displayterm value="HydronicHP_ForcedAir">Hydronic HP + forced air</dtyp:displayterm>
@@ -12132,6 +12263,7 @@
             <dtyp:CBECCresXMLterm value="EvaporativelyCooledCondenser">evaporatively cooled condenser</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="GasAbsorptionAC">gas absorption AC</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="GroundSourceHeatPump">GroundSourceHeatPump - Ground source heat pump (able to heat DHW)</dtyp:CBECCresXMLterm>
+            <dtyp:CBECCresXMLterm value="HeatPumpDHWCombo">Heat Pump DHW Combo</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="Hydronic">hydronic</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="HydronicHP">hydronic HP</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="HydronicHP_ForcedAir">hydronic HP+forced air</dtyp:CBECCresXMLterm>
@@ -12179,6 +12311,7 @@
          <xsd:enumeration value="EvaporativelyCooledCondenser"/>
          <xsd:enumeration value="GasAbsorptionAC"/>
          <xsd:enumeration value="GroundSourceHeatPump"/>
+         <xsd:enumeration value="HeatPumpDHWCombo"/>
          <xsd:enumeration value="Hydronic"/>
          <xsd:enumeration value="HydronicHP"/>
          <xsd:enumeration value="HydronicHP_ForcedAir"/>
@@ -12641,6 +12774,20 @@
       <xsd:restriction base="dtyp:IntegerNonnegative">
       </xsd:restriction>
    </xsd:simpleType>
+   <xsd:simpleType name="ResidentialWaterHeaterDemRespCompat">
+      <xsd:annotation>
+         <xsd:documentation>  Units: none</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="xsd:boolean">
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="ResidentialWaterHeaterJA13UICompliance">
+      <xsd:annotation>
+         <xsd:documentation>  Units: none</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="xsd:boolean">
+      </xsd:restriction>
+   </xsd:simpleType>
    <xsd:simpleType name="ResidentialWaterHeaterType">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
@@ -12805,7 +12952,7 @@
    <xsd:simpleType name="Rheem2020Build40SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 40
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12833,7 +12980,7 @@
 	 <xsd:documentation> Nov 2023 Removed incorrect duplicate RheemPROPH50T2RH310UM 
          </xsd:documentation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 50
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12861,7 +13008,7 @@
 	 <xsd:documentation> Nov 2023 Removed incorrect duplicate RheemPROPH65T2RH310UM  
          </xsd:documentation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 65
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12889,7 +13036,7 @@
 	 <xsd:documentation> Nov 2023 Removed incorrect duplicate RheemPROPH80T2RH310UM 
          </xsd:documentation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 80
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12915,7 +13062,7 @@
    <xsd:simpleType name="Rheem2020Prem40SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 40
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -13021,7 +13168,7 @@
    <xsd:simpleType name="Rheem2020Prem50SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 50
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -13129,7 +13276,7 @@
    <xsd:simpleType name="Rheem2020Prem65SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 65
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -13237,7 +13384,7 @@
    <xsd:simpleType name="Rheem2020Prem80SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 80
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -13447,6 +13594,7 @@
             <dtyp:displayterm value="RheemPROPH50RH350DCB">PROPH50 T2 RH350 DCB  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE50T10">XE50T10HD50U0  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE50T10HD50U1">XE50T10HD50U1  (50 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="RheemXE50T10U1">XE50T10HD50U1  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Richmond10E50HP4D">10E50-HP4D  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH50RU350D">PROUH50 T2 RU350 D  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH50RU350DCB">PROUH50 T2 RU350 DCB  (50 gal)</dtyp:displayterm>
@@ -13459,6 +13607,7 @@
          <xsd:enumeration value="RheemPROPH50RH350DCB"/>
          <xsd:enumeration value="RheemXE50T10"/>
          <xsd:enumeration value="RheemXE50T10HD50U1"/>
+         <xsd:enumeration value="RheemXE50T10U1"/>
          <xsd:enumeration value="Richmond10E50HP4D"/>
          <xsd:enumeration value="RuudPROUH50RU350D"/>
          <xsd:enumeration value="RuudPROUH50RU350DCB"/>
@@ -13477,6 +13626,7 @@
             <dtyp:displayterm value="RheemPROPH65RH350DCB">PROPH65 T2 RH350 DCB  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE65T10">XE65T10HD50U0  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE65T10HD50U1">XE65T10HD50U1  (65 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="RheemXE65T10U1">XE65T10HD50U1  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Richmond10E65HP4D">10E65-HP4D  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH65RU350D">PROUH65 T2 RU350 D  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH65RU350DCB">PROUH65 T2 RU350 DCB  (65 gal)</dtyp:displayterm>
@@ -13489,6 +13639,7 @@
          <xsd:enumeration value="RheemPROPH65RH350DCB"/>
          <xsd:enumeration value="RheemXE65T10"/>
          <xsd:enumeration value="RheemXE65T10HD50U1"/>
+         <xsd:enumeration value="RheemXE65T10U1"/>
          <xsd:enumeration value="Richmond10E65HP4D"/>
          <xsd:enumeration value="RuudPROUH65RU350D"/>
          <xsd:enumeration value="RuudPROUH65RU350DCB"/>
@@ -13507,6 +13658,7 @@
             <dtyp:displayterm value="RheemPROPH80RH350DCB">PROPH80 T2 RH350 DCB  (80gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE80T10">XE80T10HD50U0  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE80T10HD50U1">XE80T10HD50U1  (80 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="RheemXE80T10U1">XE80T10HD50U1  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Richmond10E80HP4D">10E80-HP4D  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH80RU350D">PROUH80 T2 RU350 D  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH80RU350DCB">PROUH80 T2 RU350 DCB  (80 gal)</dtyp:displayterm>
@@ -13519,6 +13671,7 @@
          <xsd:enumeration value="RheemPROPH80RH350DCB"/>
          <xsd:enumeration value="RheemXE80T10"/>
          <xsd:enumeration value="RheemXE80T10HD50U1"/>
+         <xsd:enumeration value="RheemXE80T10U1"/>
          <xsd:enumeration value="Richmond10E80HP4D"/>
          <xsd:enumeration value="RuudPROUH80RU350D"/>
          <xsd:enumeration value="RuudPROUH80RU350DCB"/>
@@ -14722,11 +14875,19 @@
             <dtyp:termConditions>{{CONDITIONS}}</dtyp:termConditions>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="HarvestThermal_PD2A1043">PD2A-10-43 (43 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GS3_GAUS160QTA">GS3-45HPA-US &amp; GAUS-160QTA  (43 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GS3_SAN43SSAQA">GS3-45HPA-US &amp; SAN-43SSAQA  (43 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GS4_SAN43SSAQA">GS3-45HPC &amp; SAN-43SSAQA  (43 gal)</dtyp:displayterm>
             <dtyp:displayterm value="SandenGS3_GAUS160QTA">GS3-45HPA-US &amp; GAUS-160QTA  (43 gal)</dtyp:displayterm>
             <dtyp:displayterm value="SandenGS3_SAN43SSAQA">GS3-45HPA-US &amp; SAN-43SSAQA  (43 gal)</dtyp:displayterm>
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="HarvestThermal_PD2A1043"/>
+         <xsd:enumeration value="SANCO2GS3_GAUS160QTA"/>
+         <xsd:enumeration value="SANCO2GS3_SAN43SSAQA"/>
+         <xsd:enumeration value="SANCO2GS4_SAN43SSAQA"/>
          <xsd:enumeration value="SandenGS3_GAUS160QTA"/>
          <xsd:enumeration value="SandenGS3_SAN43SSAQA"/>
       </xsd:restriction>
@@ -14767,6 +14928,7 @@
             <dtyp:displayterm value="RheemXE50T10">XE50T10HD50U0  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE50T10H22U0">XE50T10H22U0  (50 gal, JA13)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE50T10HD50U1">XE50T10HD50U1  (50 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="RheemXE50T10U1">XE50T10HD50U1  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Richmond10E50HP4D">10E50-HP4D  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Richmond10E50HP4D15">10E50-HP4D15  (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH50RU350D">PROUH50 T2 RU350 D  (50 gal)</dtyp:displayterm>
@@ -14812,6 +14974,7 @@
          <xsd:enumeration value="RheemXE50T10"/>
          <xsd:enumeration value="RheemXE50T10H22U0"/>
          <xsd:enumeration value="RheemXE50T10HD50U1"/>
+         <xsd:enumeration value="RheemXE50T10U1"/>
          <xsd:enumeration value="Richmond10E50HP4D"/>
          <xsd:enumeration value="Richmond10E50HP4D15"/>
          <xsd:enumeration value="RuudPROUH50RU350D"/>
@@ -14853,6 +15016,7 @@
             <dtyp:displayterm value="RheemPROPH65RH350DCB">PROPH65 T2 RH350 DCB  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE65T10">XE65T10HD50U0  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RheemXE65T10HD50U1">XE65T10HD50U1  (65 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="RheemXE65T10U1">XE65T10HD50U1  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Richmond10E65HP4D">10E65-HP4D  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Richmond10E65HP4D15">10E65-HP4D15  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH65RU350D">PROUH65 T2 RU350 D  (65 gal)</dtyp:displayterm>
@@ -14887,6 +15051,7 @@
          <xsd:enumeration value="RheemPROPH65RH350DCB"/>
          <xsd:enumeration value="RheemXE65T10"/>
          <xsd:enumeration value="RheemXE65T10HD50U1"/>
+         <xsd:enumeration value="RheemXE65T10U1"/>
          <xsd:enumeration value="Richmond10E65HP4D"/>
          <xsd:enumeration value="Richmond10E65HP4D15"/>
          <xsd:enumeration value="RuudPROUH65RU350D"/>
@@ -14922,6 +15087,7 @@
             <dtyp:displayterm value="GEH80DEEJSC">GEH80DEEJSC  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="GEH80DFEJSR">GEH80DFEJSR  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="GEH80DHEKSC">GEH80DHEKSC  (80 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="HarvestThermal_PD2A1083">PD2A-10-83 (83 gal)</dtyp:displayterm>
             <dtyp:displayterm value="Kenmore153_5928">153.5928  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="LochinvarHPA081">HPA081KD 120  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="LochinvarHPA082">HPA082KD 120  (80 gal)</dtyp:displayterm>
@@ -14937,6 +15103,11 @@
             <dtyp:displayterm value="RuudPROUH80RU350D">PROUH80 T2 RU350 D  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH80RU350D15">PROUH80 T2 RU350 D15  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="RuudPROUH80RU350DCB">PROUH80 T2 RU350 DCB  (80 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GS3_GAUS315EQTD">GS3-45HPA-US &amp; GAUS-315EQTD  (83 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GS3_SAN83SSAQA">GS3-45HPA-US &amp; SAN-83SSAQA  (83 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GUS_GAUS315EQTD">GUS-45HPA-US &amp; GAUS-1315EQTD  (83 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GUS_SAN83SSAQA">GUS-45HPA-US &amp; SAN-83SSAQA  (83 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GS4_SAN83SSAQA">GS4-45HPC &amp; SAN-83SSAQA  (83 gal)</dtyp:displayterm>
             <dtyp:displayterm value="SandenGS3_GAUS315EQTD">GS3-45HPA-US &amp; GAUS-315EQTD  (83 gal)</dtyp:displayterm>
             <dtyp:displayterm value="SandenGS3_SAN83SSAQA">GS3-45HPA-US &amp; SAN-83SSAQA  (83 gal)</dtyp:displayterm>
             <dtyp:displayterm value="SandenGUS_GAUS315EQTD">GUS-45HPA-US &amp; GAUS-1315EQTD  (83 gal)</dtyp:displayterm>
@@ -14966,6 +15137,7 @@
          <xsd:enumeration value="GEH80DEEJSC"/>
          <xsd:enumeration value="GEH80DFEJSR"/>
          <xsd:enumeration value="GEH80DHEKSC"/>
+         <xsd:enumeration value="HarvestThermal_PD2A1083"/>
          <xsd:enumeration value="Kenmore153_5928"/>
          <xsd:enumeration value="LochinvarHPA081"/>
          <xsd:enumeration value="LochinvarHPA082"/>
@@ -14981,6 +15153,11 @@
          <xsd:enumeration value="RuudPROUH80RU350D"/>
          <xsd:enumeration value="RuudPROUH80RU350D15"/>
          <xsd:enumeration value="RuudPROUH80RU350DCB"/>
+         <xsd:enumeration value="SANCO2GS3_GAUS315EQTD"/>
+         <xsd:enumeration value="SANCO2GS3_SAN83SSAQA"/>
+         <xsd:enumeration value="SANCO2GUS_GAUS315EQTD"/>
+         <xsd:enumeration value="SANCO2GUS_SAN83SSAQA"/>
+         <xsd:enumeration value="SANCO2GS4_SAN83SSAQA"/>
          <xsd:enumeration value="SandenGS3_GAUS315EQTD"/>
          <xsd:enumeration value="SandenGS3_SAN83SSAQA"/>
          <xsd:enumeration value="SandenGUS_GAUS315EQTD"/>
@@ -14993,6 +15170,22 @@
          <xsd:enumeration value="USCraftmasterHPHE2K80UN"/>
          <xsd:enumeration value="WhirlpoolHPHE2K80"/>
          <xsd:enumeration value="WhirlpoolHPHE2K80C"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="Tier3Generic120">
+      <xsd:annotation>
+         <xsd:appinfo source="CBECCresXML">
+            <dtyp:CBECCresXMLterm>hvac</dtyp:CBECCresXMLterm>
+            <dtyp:termConditions>{{CONDITIONS}}</dtyp:termConditions>
+         </xsd:appinfo>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="HarvestThermal_PD2A10119">PD2A-10-119 (119 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="SANCO2GS4_SAN119GLBK">GS4-45HPC &amp; SAN-119GLBK  (119 gal)</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="HarvestThermal_PD2A10119"/>
+         <xsd:enumeration value="SANCO2GS4_SAN119GLBK"/>
       </xsd:restriction>
    </xsd:simpleType>
    <xsd:simpleType name="Tier4Generic40">
