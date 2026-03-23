@@ -5941,6 +5941,19 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
+												<xsd:element name="M09b_FenestrationException" type="comp:FenestrationException">
+													<xsd:annotation>
+														<xsd:documentation source="FieldText">Exception to 150.0 (q)*</xsd:documentation>
+														<xsd:documentation source="CalculationsAndRules">Display is a checkbox - checked for true result, unchecked for false result</xsd:documentation>
+														<xsd:appinfo source="displayterm">
+															<dtyp:displayterm value="true"></dtyp:displayterm>
+															<dtyp:displayterm value="false"></dtyp:displayterm>
+														</xsd:appinfo>
+														<xsd:appinfo source="CBECCresXML">
+															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+														</xsd:appinfo>
+													</xsd:annotation>
+												</xsd:element>
 												<xsd:element name="M10_ExternalShadingObjectType" minOccurs="0">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
@@ -6055,6 +6068,12 @@
 												</xsd:sequence>
 											</xsd:sequence>
 										</xsd:complexType>
+									</xsd:element>
+									<xsd:element name="TableGlazingFootnote1" minOccurs="0">
+										<xsd:annotation>
+											<xsd:documentation source="FieldText"/>
+											<xsd:documentation source="AdditionalRequirements">*Project includes fenestration not subject to maximum U-factor requirement per Exception 1 / Exception 2 / Exception 3 to Section 150.0(q).</xsd:documentation>
+										</xsd:annotation>
 									</xsd:element>
 								</xsd:sequence>
 							</xsd:complexType>
