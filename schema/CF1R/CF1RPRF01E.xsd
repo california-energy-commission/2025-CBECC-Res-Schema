@@ -4240,14 +4240,24 @@
 									<xsd:element name="Row" minOccurs="1" maxOccurs="unbounded">
 										<xsd:complexType>
 											<xsd:sequence>
-												<xsd:element name="Da01_PV_SystemTotalRatedPowerDC" type="hvac:PV_SystemTotalRatedPowerDC">
+											    	<xsd:choice maxOccurs="1">
+												    <xsd:element name="Da01_PV_SystemTotalRatedPowerDC" type="hvac:PV_SystemTotalRatedPowerDC">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">DC System Size (kWdc)</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
 													</xsd:annotation>
-												</xsd:element>
+												    </xsd:element>
+												    <xsd:element name="Da01_PV_100kWhmBlockCount" type="hvac:PV_100kWhmBlockCount">
+													<xsd:annotation>
+														<xsd:documentation source="FieldText">Number of 100-kWh per month blocks</xsd:documentation>
+														<xsd:appinfo source="CBECCresXML">
+															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+														</xsd:appinfo>
+													</xsd:annotation>
+												    </xsd:element>
+												</xsd:choice>
 												<xsd:element name="Da01b_PV_StandardDesignPowerDC" type="hvac:PV_StandardDesignPowerDC">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
