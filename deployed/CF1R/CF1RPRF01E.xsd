@@ -1305,12 +1305,19 @@
                       <xsd:documentation source="AdditionalRequirements">* Building complies when Proposed Design is equal to or less than Standard Design in all applicable compliance categories</xsd:documentation>
                     </xsd:annotation>
                   </xsd:element>
-                  <xsd:element name="LscEndNote2" minOccurs="0">
-                    <xsd:annotation>
-                      <xsd:documentation source="FieldText"/>
-                      <xsd:documentation source="AdditionalRequirements">** Peak cooling target represents 120% of the standard design building peak cooling energy use.</xsd:documentation>
-                    </xsd:annotation>
-                  </xsd:element>
+                  <xsd:choice>
+                    <xsd:element name="LscEndNote2" minOccurs="0">
+                      <xsd:annotation>
+                        <xsd:documentation source="FieldText"/>
+                        <xsd:documentation source="AdditionalRequirements">** Peak cooling target represents 120% of the standard design building peak cooling energy use.</xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="LscEndNote2_PeakCoolingTargetString" type="comp:PeakCoolingTargetString">
+                      <xsd:annotation>
+                        <xsd:documentation source="FieldText"/>
+                      </xsd:annotation>
+                    </xsd:element>
+                  </xsd:choice>
                   <xsd:element name="LscEndNote3" minOccurs="0">
                     <xsd:annotation>
                       <xsd:documentation source="FieldText"/>
@@ -1669,12 +1676,19 @@
                       <xsd:documentation source="AdditionalRequirements">* Building complies when Proposed Design is equal to or less than Standard Design in all applicable compliance categories</xsd:documentation>
                     </xsd:annotation>
                   </xsd:element>
-                  <xsd:element name="LscEndNote2" minOccurs="0">
-                    <xsd:annotation>
-                      <xsd:documentation source="FieldText"/>
-                      <xsd:documentation source="AdditionalRequirements">** Peak cooling target represents 120% of the standard design building peak cooling energy use.</xsd:documentation>
-                    </xsd:annotation>
-                  </xsd:element>
+                  <xsd:choice>
+                    <xsd:element name="LscEndNote2" minOccurs="0">
+                      <xsd:annotation>
+                        <xsd:documentation source="FieldText"/>
+                        <xsd:documentation source="AdditionalRequirements">** Peak cooling target represents 120% of the standard design building peak cooling energy use.</xsd:documentation>
+                      </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="LscEndNote2_PeakCoolingTargetString" type="comp:PeakCoolingTargetString">
+                      <xsd:annotation>
+                        <xsd:documentation source="FieldText"/>
+                      </xsd:annotation>
+                    </xsd:element>
+                  </xsd:choice>
                   <xsd:element name="LscEndNote3" minOccurs="0">
                     <xsd:annotation>
                       <xsd:documentation source="FieldText"/>

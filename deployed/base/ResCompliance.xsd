@@ -13783,6 +13783,13 @@
       <xsd:enumeration value="Pass"/>
     </xsd:restriction>
   </xsd:simpleType>
+  <xsd:simpleType name="PeakCoolingTargetString">
+    <xsd:annotation>
+      <xsd:documentation>This string specifies the peak cooling target percentage per climate zone</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      </xsd:restriction>
+  </xsd:simpleType>
   <xsd:simpleType name="PercentImprovementIAQ_VentilationEast">
     <xsd:annotation>
       <xsd:documentation>The percentage of improvement  is the compliance margin represented as a percentage of the total energy use of the  Standard Design which may be negative indicating a lack of improvement between the standard and proposed design.  Units: percent</xsd:documentation>
