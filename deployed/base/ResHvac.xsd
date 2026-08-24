@@ -11974,7 +11974,7 @@
         <dtyp:displayterm>Number of 100-kWh per month blocks</dtyp:displayterm>
       </xsd:appinfo>
     </xsd:annotation>
-    <xsd:restriction base="dtyp:IntegerNonnegative">
+    <xsd:restriction base="dtyp:DecimalNonnegative">
       </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="PV_StandardDesignPowerDC">

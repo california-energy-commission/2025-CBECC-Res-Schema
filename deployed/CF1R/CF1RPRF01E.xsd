@@ -1311,6 +1311,12 @@
                       <xsd:documentation source="AdditionalRequirements">** Peak cooling target represents 120% of the standard design building peak cooling energy use.</xsd:documentation>
                     </xsd:annotation>
                   </xsd:element>
+                  <xsd:element name="LscEndNote3" minOccurs="0">
+                    <xsd:annotation>
+                      <xsd:documentation source="FieldText"/>
+                      <xsd:documentation source="AdditionalRequirements">** Proposed Design Peak Cooling electricity (kWh) includes credit for battery energy storage system in Proposed Design.</xsd:documentation>
+                    </xsd:annotation>
+                  </xsd:element>
                   <xsd:element name="LscResultNotes_LSC_ComplianceNotes" type="comp:LSC_ComplianceNotes" minOccurs="0" maxOccurs="unbounded">
                     <xsd:annotation>
                       <xsd:documentation source="FieldText"/>
@@ -1667,6 +1673,12 @@
                     <xsd:annotation>
                       <xsd:documentation source="FieldText"/>
                       <xsd:documentation source="AdditionalRequirements">** Peak cooling target represents 120% of the standard design building peak cooling energy use.</xsd:documentation>
+                    </xsd:annotation>
+                  </xsd:element>
+                  <xsd:element name="LscEndNote3" minOccurs="0">
+                    <xsd:annotation>
+                      <xsd:documentation source="FieldText"/>
+                      <xsd:documentation source="AdditionalRequirements">** Proposed Design Peak Cooling electricity (kWh) includes credit for battery energy storage system in Proposed Design.</xsd:documentation>
                     </xsd:annotation>
                   </xsd:element>
                   <xsd:element name="LscResultNotes_LSC_ComplianceNotes" type="comp:LSC_ComplianceNotes" minOccurs="0" maxOccurs="unbounded">
