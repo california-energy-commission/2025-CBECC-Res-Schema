@@ -9528,6 +9528,7 @@
 																<xsd:enumeration value="DuctedMultiSplitHP"/>
 																<xsd:enumeration value="DuctlessMiniSplitHP"/>
 																<xsd:enumeration value="DuctlessMultiSplitHP"/>
+																<xsd:enumeration value="DuctlessPkgHeatPump"/>
 																<xsd:enumeration value="DuctlessVRF_HP"/>
 																<xsd:enumeration value="GroundSourceHeatPump"/>
 																<xsd:enumeration value="HeatPumpDHWCombo"/>
@@ -9681,7 +9682,7 @@
 													</xsd:element>
 												</xsd:choice>
 												<xsd:choice maxOccurs="1">
-													<xsd:element name="Y06b_HeatPumpBackupFuel" type="hvac:HeatPumpBackupFuel" minOccurs="0">
+													<xsd:element name="Y06b_HeatPumpBackupFuel" type="hvac:HeatPumpBackupFuel">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">Backup</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
@@ -9689,7 +9690,7 @@
 															</xsd:appinfo>
 														</xsd:annotation>
 													</xsd:element>
-													<xsd:element name="Y06b_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+													<xsd:element name="Y06b_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">Backup</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
@@ -9785,15 +9786,6 @@
 														</xsd:annotation>
 													</xsd:element>
 												</xsd:choice>
-												<xsd:element name="Y09_ResidentialCoolingZoneType" type="hvac:ResidentialCoolingZoneType">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
-														<xsd:documentation source="AdditionalRequirements">Zonally Controlled</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
 												<xsd:element name="Y10_CondenserSpeedType" type="hvac:CondenserSpeedType">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
@@ -9859,6 +9851,15 @@
 														<xsd:documentation source="CalculationsAndRules">This column should display a checkbox.  If result = true, display box checked, Else unchecked. </xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm/>
+														</xsd:appinfo>
+													</xsd:annotation>
+												</xsd:element>
+												<xsd:element name="Y14b_ResidentialCoolingZoneType" type="hvac:ResidentialCoolingZoneType">
+													<xsd:annotation>
+														<xsd:documentation source="FieldText">Zonal Control</xsd:documentation>
+														<xsd:documentation source="CalculationsAndRules">This column should display a checkbox.  If result = ZoneControlled, display box checked, Else unchecked. </xsd:documentation>
+														<xsd:appinfo source="CBECCresXML">
+															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>

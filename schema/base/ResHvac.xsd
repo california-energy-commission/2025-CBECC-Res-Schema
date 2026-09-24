@@ -13052,6 +13052,7 @@
             <dtyp:displayterm value="DuctedMultiSplitHP">Multi-split HP-ducted</dtyp:displayterm>
             <dtyp:displayterm value="DuctlessMiniSplitHP">Ductless MiniSplit HP</dtyp:displayterm>
             <dtyp:displayterm value="DuctlessMultiSplitHP">Multi-split HP-ductless</dtyp:displayterm>
+            <dtyp:displayterm value="DuctlessPkgHeatPump">Ductless packaged heat pump</dtyp:displayterm>
             <dtyp:displayterm value="DuctlessSplitHP">Ductless mini-split HP</dtyp:displayterm>
             <dtyp:displayterm value="DuctlessVRF_HP">Ductless VRF Heat Pump</dtyp:displayterm>
             <dtyp:displayterm value="Electric">Electric</dtyp:displayterm>
@@ -13091,7 +13092,8 @@
             <dtyp:CBECCresXMLterm value="DuctedMiniSplitHP"></dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="DuctedMultiSplitHP"></dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="DuctlessMiniSplitHP"></dtyp:CBECCresXMLterm>
-            <dtyp:CBECCresXMLterm value="DuctlessMultiSplitHP"></dtyp:CBECCresXMLterm>
+            <dtyp:CBECCresXMLterm value="DuctlessMultiSplitHP"></dtyp:CBECCresXMLterm>  
+            <dtyp:CBECCresXMLterm value="DuctlessPkgHeatPump">ductless packaged HP</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="DuctlessSplitHP">ductless split HP</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="DuctlessVRF_HP">Ductless VRF Heat Pump</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="Electric"></dtyp:CBECCresXMLterm>
@@ -13132,7 +13134,8 @@
          <xsd:enumeration value="DuctedMiniSplitHP"/>
          <xsd:enumeration value="DuctedMultiSplitHP"/>
          <xsd:enumeration value="DuctlessMiniSplitHP"/>
-         <xsd:enumeration value="DuctlessMultiSplitHP"/>
+         <xsd:enumeration value="DuctlessMultiSplitHP"/>  
+         <xsd:enumeration value="DuctlessPkgHeatPump"/>
          <xsd:enumeration value="DuctlessSplitHP"/>
          <xsd:enumeration value="DuctlessVRF_HP"/>
          <xsd:enumeration value="Electric"/>
@@ -16915,6 +16918,18 @@
       </xsd:annotation>
       <xsd:restriction base="xsd:token">
       </xsd:restriction>
+      </xsd:simpleType><xsd:simpleType name="WATTS_AEGIS_500A_SPSimulationGroup">
+	<xsd:annotation>
+	   <xsd:appinfo source="displaytermType">
+		<dtyp:displayterm>Simulated Model Group WATTS AEGIS 500A SP</dtyp:displayterm>
+	   </xsd:appinfo>
+	   <xsd:appinfo source="displayterm">
+		<dtyp:displayterm value="LyncAegis500A">Lync Aegis 500A  (109kW cap @ 40F)</dtyp:displayterm>
+	   </xsd:appinfo>
+	</xsd:annotation>
+	<xsd:restriction base="dtyp:EnumerationConstant">
+	   <xsd:enumeration value="LyncAegis500A"/>
+	</xsd:restriction>
    </xsd:simpleType>
    <xsd:simpleType name="ZoneConditioningType">
       <xsd:annotation>
