@@ -2526,7 +2526,7 @@
                     </xsd:element>
                   </xsd:choice>
                   <xsd:choice maxOccurs="1">
-                    <xsd:element name="EusCookk06_EnergyUseMargin" type="comp:EnergyUseMargin">
+                    <xsd:element name="EusCook06_EnergyUseMargin" type="comp:EnergyUseMargin">
                       <xsd:annotation>
                         <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
                         <xsd:appinfo source="CBECCresXML">
@@ -3592,7 +3592,7 @@
                     </xsd:element>
                   </xsd:choice>
                   <xsd:choice maxOccurs="1">
-                    <xsd:element name="EusCookk06_EnergyUseMargin" type="comp:EnergyUseMargin">
+                    <xsd:element name="EusCook06_EnergyUseMargin" type="comp:EnergyUseMargin">
                       <xsd:annotation>
                         <xsd:documentation>  Units: $/ft2 -yr</xsd:documentation>
                         <xsd:appinfo source="CBECCresXML">
@@ -4338,7 +4338,7 @@
                             </xsd:annotation>
                           </xsd:element>
                         </xsd:choice>
-                        <xsd:element name="Da01b_PV_StandardDesignPowerDC" type="hvac:PV_StandardDesignPowerDC">
+                        <xsd:element name="Da01b_PV_StandardDesignPowerDC" type="hvac:PV_StandardDesignPowerDC" minOccurs="0">
                           <xsd:annotation>
                             <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
                           </xsd:annotation>
@@ -11697,7 +11697,7 @@
                             </xsd:appinfo>
                           </xsd:annotation>
                         </xsd:element>
-                        <xsd:element name="Ee08_Status">
+                        <xsd:element name="Ee08_Status" minOccurs="0">
                           <xsd:annotation>
                             <xsd:documentation source="FieldText">Status</xsd:documentation>
                             <xsd:appinfo source="CBECCresXML">

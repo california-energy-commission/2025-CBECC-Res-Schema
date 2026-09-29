@@ -17433,6 +17433,7 @@ the inside surface of gable ends or other exterior vertical surfaces in attics t
         <dtyp:displayterm value="CompactDesignBasic">Compact distribution system basic credit</dtyp:displayterm>
         <dtyp:displayterm value="ComplianceOptionVCHP">Variable capacity heat pump compliance option (verification details from VCHP Staff report, Appendix B, and RA3)</dtyp:displayterm>
         <dtyp:displayterm value="CoolRoofInstalled">Cool roof</dtyp:displayterm>
+        <dtyp:displayterm value="DemandResponseCompatibleHPWH">One or more heat pump water heaters have been modeled as demand response compatible</dtyp:displayterm>
         <dtyp:displayterm value="DuctHighInsulation">Ducts with high level of insulation</dtyp:displayterm>
         <dtyp:displayterm value="DuctsInCrawlSpace">Ducts in crawl space</dtyp:displayterm>
         <dtyp:displayterm value="DuctsLessThan25ft">New ductwork added is less than 25 ft. in length</dtyp:displayterm>
@@ -17516,6 +17517,7 @@ the inside surface of gable ends or other exterior vertical surfaces in attics t
       <xsd:enumeration value="CompactDesignBasic"/>
       <xsd:enumeration value="ComplianceOptionVCHP"/>
       <xsd:enumeration value="CoolRoofInstalled"/>
+      <xsd:enumeration value="DemandResponseCompatibleHPWH"/>
       <xsd:enumeration value="DuctHighInsulation"/>
       <xsd:enumeration value="DuctsInCrawlSpace"/>
       <xsd:enumeration value="DuctsLessThan25ft"/>
