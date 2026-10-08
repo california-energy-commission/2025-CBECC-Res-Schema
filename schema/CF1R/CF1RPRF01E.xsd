@@ -11220,8 +11220,8 @@
 			</xsd:element>
 			<xsd:element name="Section_Bb" minOccurs="0">
 				<xsd:annotation>
-					<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
-					<xsd:documentation source="AdditionalRequirements">HVAC DISTRIBUTION - ECC VERIFICATION</xsd:documentation>
+					<xsd:documentation source="FieldText">HVAC DISTRIBUTION - ECC VERIFICATION</xsd:documentation>
+					<xsd:documentation source="AdditionalRequirements"></xsd:documentation>
 					<xsd:appinfo source="CBECCresXML">
 						<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 					</xsd:appinfo>
